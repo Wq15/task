@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.elements.user.mapper">
+
+    <resultMap id="usermap" type="com.elements.user.model.User" >
+        <id column="id"                         property="Id"/>
+        <result column="name"                   property="Name"/>
+        <result column="types_of_correction  "  property="Types_of_correction"/>
+        <result column="admission_data"         property="Admission_data"/>
+        <result column="mentor_brother"         property="Mentor_brother"/>
+        <result column="oath"                   property="Oath"/>
+    </resultMap>
+
+
+<!--resultMap是返回类型，column是列，列对应的是数据库，property是属性，
+对应的事类，只有类才有属性，所以这里三行都是用一种规则去去讲数据库的列跟类里面属性一一对应
+这里的id就相当于整个的映射平台的名称
+id="usermap"是唯一标识，为了下面的SQL语句能用这个映射平台才去的一个标识名-->
+
+    <select id="getAllUser" resultMap="usermap">
+        select * from student
+    </select>
+
+    <select id="getUserById" resultMap="usermap" parameterType="com.elements.user.model.User">
+        select * from student where id= #{Id}
+    </select>
+<!--查询结构之后，需要返回到usermap，不然查询的结果显示不出来-->
+<!--这里需要引入一个参数，称为 入参，参数类型是int型，因为userid是int类型-->
+    <insert id="insert" parameterType="com.elements.user.model.User">
+     insert into student (name, types_of_correction,admission_data,mentor_brother,oath) values (
+          #{Name}, #{Types_of_correction},#{Admission_data},#{Mentor_brother},#{Oath}
+     )
+    </insert>
+
+    <update id="update" parameterType="com.elements.user.model.User">
+     update student set name=#{Name},types_of_correction=#{Types_of_correction},admission_data=#{Admission_data},
+     mentor_brother=#{Mentor_brother},oath=#{Oath}
+     where id= #{Id}
+    </update>
+
+    <delete id="delete" parameterType="int">
+     delete from student where id= #{Id}
+    </delete>
+
+</mapper>
