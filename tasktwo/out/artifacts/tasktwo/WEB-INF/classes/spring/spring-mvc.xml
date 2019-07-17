@@ -27,6 +27,10 @@
         <property name="prefix" value="/WEB-INF/view/"/><!--设置JSP文件的目录位置-->
         <property name="suffix" value=".jsp"/>
     </bean>
+
+
+
+
     <!--静态资源交给默认的Servlet-->
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven></mvc:annotation-driven>

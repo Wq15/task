@@ -14,45 +14,44 @@
     <form action="/user/update" method="POST" accept-charset="UTF-8" onsubmit="document.charset='UTF-8'">
         <tr>
             <td>序列:</td>
-            <td><input type="int" name="id"/></td>
+            <td><input type="int" name="id" value="${studentone.id}"/></td>
+
         </tr>
-
-
         <tr>
             <td>姓名:</td>
-            <td><input type="text" name="name"/></td>
+            <td><input type="text" name="name" value="${studentone.name}"/></td>
         </tr>
         <tr>
             <td>qq:</td>
-            <td><input type="int" name="qq"/></td>
+            <td><input type="int" name="qq" value="${studentone.qq}"/></td>
         </tr>
         <tr>
             <td>修真类型:</td>
-            <td><input type="text" name="typesOfCorrection"/></td>
+            <td><input type="text" name="typesOfCorrection" value="${studentone.typesOfCorrection}"/></td>
         </tr>
         <tr>
             <td>入学日期:</td>
-            <td><input type="text" name="admissionDate"/></td>
+            <td><input type="text" name="admissionDate" value="${studentone.typesOfCorrection}"/></td>
         </tr>
         <tr>
             <td>毕业学校:</td>
-            <td><input type="text" name="graduateSchool"/></td>
+            <td><input type="text" name="graduateSchool" value="${studentone.graduateSchool}"/></td>
         </tr>
         <tr>
             <td>学号:</td>
-            <td><input type="int" name="studentId"/></td>
+            <td><input type="int" name="studentId" value="${studentone.studentId}"/></td>
         </tr>
         <tr>
             <td>日报链接:</td>
-            <td><input type="text" name="dailyLink"/></td>
+            <td><input type="text" name="dailyLink" value="${studentone.dailyLink}"/></td>
         </tr>
         <tr>
             <td>师兄:</td>
-            <td><input type="text" name="mentorBrother"/></td>
+            <td><input type="text" name="mentorBrother" value="${studentone.mentorBrother}"/></td>
         </tr>
         <tr>
             <td>宣誓:</td>
-            <td><input type="text" name="oath"/></td>
+            <td><input type="text" name="oath" value="${studentone.oath}"/></td>
         </tr>
 
 

@@ -45,4 +45,6 @@
         <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
         <property name="mapperInterface" value="example.dao.UserDao"></property>
     </bean>
+
+
 </beans>

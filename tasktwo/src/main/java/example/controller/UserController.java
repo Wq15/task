@@ -3,7 +3,6 @@ package example.controller;
 import example.pojo.Student;
 import example.pojo.User;
 import example.service.UserService;
-import org.apache.ibatis.annotations.Delete;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -18,14 +17,11 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 
-/**
- * @author wangqing
- */
-//Controller注解用于标示本类为web控制层组件
-@Controller
 
-@RequestMapping("/user")
-//在默认情况下springmvc的实例都是单例模式,所以使用scope域将其注解为每次都创建一个新的实例
+/**
+ * 在默认情况下springmvc的实例都是单例模式,所以使用scope域将其注解为每次都创建一个新的实例
+ * */
+@Controller
 @Scope("prototype")
 public class UserController {
     private static final Logger logger = Logger.getLogger(UserController.class);
@@ -35,14 +31,16 @@ public class UserController {
     /**
      * 返回user对象信息给page1.jsp处理，然后在前端页面展示
      */
-    @RequestMapping("/page")
+    @RequestMapping("/user/page")
     public ModelAndView getUser() {
-
+        logger.info("查询所有信息");
         ModelAndView mav = new ModelAndView("page1");
         List<Student> users = service.getAllUser();
 
         mav.addObject("user", users);
-        System.out.println("查询所有成功");
+
+        List<Student> resylt=service.getAllUser();
+        logger.info("resylt:"+resylt.size());
         return mav;
     }
 
@@ -50,9 +48,13 @@ public class UserController {
     @Autowired
     UserService userService;
 
-    //login业务的访问位置为/user/login
-    @RequestMapping(value = "/login", method = RequestMethod.POST,produces="text/html;charset=UTF-8")
+    /**
+     * login业务的访问位置为/user/login
+     */
+
+    @RequestMapping(value = "/user/login", method = RequestMethod.POST,produces="text/html;charset=UTF-8")
     public String login(User user, HttpServletRequest request) {
+        logger.info("user:"+user);
         //调用login方法来验证是否是注册用户
         boolean loginType = userService.login(user.getUsername(), user.getPassword());
         if (loginType) {
@@ -63,46 +65,67 @@ public class UserController {
         } else {
             //若不对,则将错误信息显示到错误页面
             request.setAttribute("message", "用户名密码错误");
+            logger.info("loginType:"+loginType);
             return "dlsb";
         }
     }
+    @RequestMapping(value = "/select",method = RequestMethod.GET,produces="text/html;charset=UTF-8")
+    public ModelAndView select(@PathVariable(value = "id") int id){
+        logger.info("id"+id);
+         ModelAndView mav =new ModelAndView("selectone");
+
+        List<Student> users = service.getAllUser();
+
+        mav.addObject("user", users);
+
+        logger.info("users"+users);
+        return mav;
+    }
 
 
-    @RequestMapping(value = "/insert", method = RequestMethod.POST,produces="text/html;charset=UTF-8")
+    @RequestMapping(value = "/user/insert", method = RequestMethod.POST,produces="text/html;charset=UTF-8")
     public ModelAndView insert(Student student) {
+        logger.info("student:"+student);
+        int result=userService.insertStudent(student);
         ModelAndView mv = new ModelAndView();
         mv.setViewName("redirect:page");
         mv.addObject("student", userService.insertStudent(student));
-        System.out.println("插入成功");
+
+        logger.info("插入成功"+result);
         return mv;
     }
 
-    @RequestMapping(value = "/add")
+    @RequestMapping(value = "/user/add")
     public String inserStudent() {
         return "insert";
     }
 
-    @RequestMapping("/updateone")
-    public String updateStudent() {
-        return "update";
-    }
+    @RequestMapping(value = "/user/updateone/{id}",method=RequestMethod.GET)
+    public ModelAndView updateStudent(@PathVariable(value = "id") int id) {
+        logger.info("id:"+id);
+        ModelAndView mv=new ModelAndView();
 
-    @RequestMapping(value = "/update", method = RequestMethod.POST,produces="text/html;charset=UTF-8")
-    public ModelAndView updateStudent(Student student) {
+        Student studentone =userService.select(id);
+        mv.addObject("studentone",studentone);
 
-        ModelAndView mv = new ModelAndView();
-
-        mv.setViewName("redirect:page");
-
-        mv.addObject("student", userService.updateStudent(student));
-        System.out.println("修改成功");
+        logger.info("studentone:"+studentone);
+        mv.setViewName("update");
         return mv;
     }
 
-    @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/user/update", method = RequestMethod.POST,produces="text/html;charset=UTF-8")
+    public ModelAndView updateStudent(Student student) {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("redirect:page");
+        mv.addObject("student", userService.updateStudent(student));
+        return mv;
+    }
+
+    @RequestMapping(value = "/user/delete/{id}", method = RequestMethod.DELETE)
     public String deleteStudent(@PathVariable(value = "id") int id) {
         userService.deleteStudent(id);
-        System.out.println("删除成功");
+
+        logger.info("id:"+id);
         return "delete";
 
     }

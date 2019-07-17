@@ -2,7 +2,11 @@ package example.pojo;
 
 public class User {
 
-    //获取登陆账号密码的been；
+    /**
+
+     *获取登陆账号密码的been；
+
+     */
     private String username;
     private String password;
 

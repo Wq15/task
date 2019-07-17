@@ -23,7 +23,9 @@
     select * from student
     </select>
 
-<!--select表示查询,它的id名称必须与DAO层接口的方法名相同,否则无法绑定-->
+    <select id="select"  parameterType="int" resultMap="studentmap">
+        select * from student where id= #{id}
+    </select>
 
     <select id="selectByName" parameterType="string" resultType="User">
         select * from user where username = #{username}

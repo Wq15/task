@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
 
+/**
+ * @author wangqing
+ */
 @Service("userServiceImpl")
 @Scope("prototype")
 public class UserServiceImpl implements UserService {
@@ -19,6 +22,10 @@ public class UserServiceImpl implements UserService {
         return userDao.getAllUsers();
     }
 
+    @Override
+    public  Student select(int id){
+        return userDao.select(id);
+    }
     @Override
     public  int insertStudent(Student student) {
 
@@ -36,12 +43,14 @@ public class UserServiceImpl implements UserService {
         return userDao.updateStudent(student);
     }
 
-    //下面是实现登陆的服务层代码；
-    //自动注入userdao 用于访问数据库
+    /**下面是实现登陆的服务层代码；
+    自动注入userdao 用于访问数据库
+    */
     @Autowired
     UserDao Mapper;
-    //登录方法的实现,从jsp页面获取username与password
-    @Override
+    /**登录方法的实现,从jsp页面获取username与password
+    */
+     @Override
     public boolean login(String username, String password) {
         User user = Mapper.selectByName(username);
 

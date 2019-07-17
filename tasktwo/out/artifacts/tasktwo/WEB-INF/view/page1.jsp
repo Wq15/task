@@ -2,6 +2,8 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 <%--<%@page isELIgnored="false" %>--%>
+<%@page import="java.text.SimpleDateFormat" %>
+<%@page import="java.text.DateFormat" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -14,6 +16,13 @@
 </head>
 <body>
 <table>
+    <tr>
+        <td>序列:</td>
+        <td><input type="int" name="id"/>
+            <a href="/user/delect" rel="external nofollow" >查询</a></td>
+
+        <td><a href="/user/add" rel="external nofollow" >添加</a></td>
+    </tr>
     <tr>
         <th>序列</th>
         <th>姓名</th>
@@ -41,7 +50,7 @@
             <td>${user.mentorBrother}</td>
             <td>${user.oath}</td>
 
-            <td><a href="/user/updateone" rel="external nofollow" >修改</a></td>
+            <td><a href="/user/updateone/${user.id}" rel="external nofollow" >修改</a></td>
             <td>
                 <form action="/user/delete/${user.id}" method="POST">
 
@@ -52,7 +61,7 @@
             </td>
         </tr>
     </c:forEach>
-    <tr><a href="/user/add" rel="external nofollow" >添加</a></tr>
+
 </table>
 </body>
 </html>

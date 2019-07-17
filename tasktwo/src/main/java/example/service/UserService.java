@@ -14,11 +14,13 @@ public interface UserService {
      * @param password
      * @return
      */
-    public boolean login(String username, String password);
+     boolean login(String username, String password);
 
-    public int insertStudent(Student student);
+     int insertStudent(Student student);
 
-    public int updateStudent(Student student);
+     int updateStudent(Student student);
 
-    public int deleteStudent(int id);
+     int deleteStudent(int id);
+
+     Student select(int id);
 }
