@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.ReplyMapper">
+  <resultMap id="BaseResultMap" type="com.pojo.Reply">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="replay_name" jdbcType="VARCHAR" property="replayName" />
+    <result column="reply_time" jdbcType="BIGINT" property="replyTime" />
+    <result column="reply" jdbcType="VARCHAR" property="reply" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="production_id" jdbcType="INTEGER" property="productionId" />
+    <result column="which_comment" jdbcType="VARCHAR" property="whichComment" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, replay_name, reply_time, reply, update_by, update_time, production_id, which_comment
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from reply
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <select id="selectReply" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from reply
+    where production_id = #{productionId,jdbcType=INTEGER}
+  </select>
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from reply
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.pojo.Reply">
+    insert into reply (id, replay_name, reply_time, 
+      reply, update_by, update_time, 
+      production_id, which_comment)
+    values (#{id,jdbcType=INTEGER}, #{replayName,jdbcType=VARCHAR}, #{replyTime,jdbcType=BIGINT}, 
+      #{reply,jdbcType=VARCHAR}, #{updateBy,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, 
+      #{productionId,jdbcType=INTEGER}, #{whichComment,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.pojo.Reply">
+    insert into reply
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="replayName != null">
+        replay_name,
+      </if>
+      <if test="replyTime != null">
+        reply_time,
+      </if>
+      <if test="reply != null">
+        reply,
+      </if>
+      <if test="updateBy != null">
+        update_by,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="productionId != null">
+        production_id,
+      </if>
+      <if test="whichComment != null">
+        which_comment,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="replayName != null">
+        #{replayName,jdbcType=VARCHAR},
+      </if>
+      <if test="replyTime != null">
+        #{replyTime,jdbcType=BIGINT},
+      </if>
+      <if test="reply != null">
+        #{reply,jdbcType=VARCHAR},
+      </if>
+      <if test="updateBy != null">
+        #{updateBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="productionId != null">
+        #{productionId,jdbcType=INTEGER},
+      </if>
+      <if test="whichComment != null">
+        #{whichComment,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.pojo.Reply">
+    update reply
+    <set>
+      <if test="replayName != null">
+        replay_name = #{replayName,jdbcType=VARCHAR},
+      </if>
+      <if test="replyTime != null">
+        reply_time = #{replyTime,jdbcType=BIGINT},
+      </if>
+      <if test="reply != null">
+        reply = #{reply,jdbcType=VARCHAR},
+      </if>
+      <if test="updateBy != null">
+        update_by = #{updateBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="productionId != null">
+        production_id = #{productionId,jdbcType=INTEGER},
+      </if>
+      <if test="whichComment != null">
+        which_comment = #{whichComment,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.pojo.Reply">
+    update reply
+    set replay_name = #{replayName,jdbcType=VARCHAR},
+      reply_time = #{replyTime,jdbcType=BIGINT},
+      reply = #{reply,jdbcType=VARCHAR},
+      update_by = #{updateBy,jdbcType=VARCHAR},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      production_id = #{productionId,jdbcType=INTEGER},
+      which_comment = #{whichComment,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

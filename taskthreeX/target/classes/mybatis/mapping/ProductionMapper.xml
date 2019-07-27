@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.ProductionMapper">
+  <resultMap id="BaseResultMap" type="com.pojo.Production">
+    <id column="production_id" jdbcType="INTEGER" property="productionId" />
+    <result column="production_name" jdbcType="VARCHAR" property="productionName" />
+    <result column="production_type" jdbcType="VARCHAR" property="productionType" />
+    <result column="production_author" jdbcType="VARCHAR" property="productionAuthor" />
+    <result column="exhibition_time" jdbcType="VARCHAR" property="exhibitionTime" />
+    <result column="exhibition" jdbcType="VARCHAR" property="exhibition" />
+    <result column="update_time" jdbcType="VARCHAR" property="updateTime" />
+    <result column="photography_link" jdbcType="VARCHAR" property="photographyLink" />
+    <result column="production_link" jdbcType="VARCHAR" property="productionLink" />
+    <result column="create_time" jdbcType="VARCHAR" property="createTime" />
+    <result column="author_sharing" jdbcType="VARCHAR" property="authorSharing" />
+    <result column="production_brief" jdbcType="VARCHAR" property="productionBrief" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    production_id, production_name, production_type, production_author, exhibition_time, 
+    exhibition, update_time, photography_link, production_link, create_time, author_sharing, 
+    production_brief
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from production
+    where production_id = #{productionId,jdbcType=INTEGER}
+  </select>
+
+  <select id="select" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from production
+    where production_type=#{submenuName}
+  </select>
+
+
+  <select id="selectByKeyword" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from production WHERE CONCAT(`production_name`,`production_brief`) LIKE  concat('%',#{keyword},'%')
+  </select>
+
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from production
+    where production_id = #{productionId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.pojo.Production">
+    insert into production (production_id, production_name, production_type, 
+      production_author, exhibition_time, exhibition, 
+      update_time, photography_link, production_link, 
+      create_time, author_sharing, production_brief
+      )
+    values (#{productionId,jdbcType=INTEGER}, #{productionName,jdbcType=VARCHAR}, #{productionType,jdbcType=VARCHAR}, 
+      #{productionAuthor,jdbcType=VARCHAR}, #{exhibitionTime,jdbcType=VARCHAR}, #{exhibition,jdbcType=VARCHAR}, 
+      #{updateTime,jdbcType=VARCHAR}, #{photographyLink,jdbcType=VARCHAR}, #{productionLink,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=VARCHAR}, #{authorSharing,jdbcType=VARCHAR}, #{productionBrief,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.pojo.Production">
+    insert into production
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="productionId != null">
+        production_id,
+      </if>
+      <if test="productionName != null">
+        production_name,
+      </if>
+      <if test="productionType != null">
+        production_type,
+      </if>
+      <if test="productionAuthor != null">
+        production_author,
+      </if>
+      <if test="exhibitionTime != null">
+        exhibition_time,
+      </if>
+      <if test="exhibition != null">
+        exhibition,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="photographyLink != null">
+        photography_link,
+      </if>
+      <if test="productionLink != null">
+        production_link,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="authorSharing != null">
+        author_sharing,
+      </if>
+      <if test="productionBrief != null">
+        production_brief,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="productionId != null">
+        #{productionId,jdbcType=INTEGER},
+      </if>
+      <if test="productionName != null">
+        #{productionName,jdbcType=VARCHAR},
+      </if>
+      <if test="productionType != null">
+        #{productionType,jdbcType=VARCHAR},
+      </if>
+      <if test="productionAuthor != null">
+        #{productionAuthor,jdbcType=VARCHAR},
+      </if>
+      <if test="exhibitionTime != null">
+        #{exhibitionTime,jdbcType=VARCHAR},
+      </if>
+      <if test="exhibition != null">
+        #{exhibition,jdbcType=VARCHAR},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=VARCHAR},
+      </if>
+      <if test="photographyLink != null">
+        #{photographyLink,jdbcType=VARCHAR},
+      </if>
+      <if test="productionLink != null">
+        #{productionLink,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="authorSharing != null">
+        #{authorSharing,jdbcType=VARCHAR},
+      </if>
+      <if test="productionBrief != null">
+        #{productionBrief,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.pojo.Production">
+    update production
+    <set>
+      <if test="productionName != null">
+        production_name = #{productionName,jdbcType=VARCHAR},
+      </if>
+      <if test="productionType != null">
+        production_type = #{productionType,jdbcType=VARCHAR},
+      </if>
+      <if test="productionAuthor != null">
+        production_author = #{productionAuthor,jdbcType=VARCHAR},
+      </if>
+      <if test="exhibitionTime != null">
+        exhibition_time = #{exhibitionTime,jdbcType=VARCHAR},
+      </if>
+      <if test="exhibition != null">
+        exhibition = #{exhibition,jdbcType=VARCHAR},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=VARCHAR},
+      </if>
+      <if test="photographyLink != null">
+        photography_link = #{photographyLink,jdbcType=VARCHAR},
+      </if>
+      <if test="productionLink != null">
+        production_link = #{productionLink,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="authorSharing != null">
+        author_sharing = #{authorSharing,jdbcType=VARCHAR},
+      </if>
+      <if test="productionBrief != null">
+        production_brief = #{productionBrief,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where production_id = #{productionId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.pojo.Production">
+    update production
+    set production_name = #{productionName,jdbcType=VARCHAR},
+      production_type = #{productionType,jdbcType=VARCHAR},
+      production_author = #{productionAuthor,jdbcType=VARCHAR},
+      exhibition_time = #{exhibitionTime,jdbcType=VARCHAR},
+      exhibition = #{exhibition,jdbcType=VARCHAR},
+      update_time = #{updateTime,jdbcType=VARCHAR},
+      photography_link = #{photographyLink,jdbcType=VARCHAR},
+      production_link = #{productionLink,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=VARCHAR},
+      author_sharing = #{authorSharing,jdbcType=VARCHAR},
+      production_brief = #{productionBrief,jdbcType=VARCHAR}
+    where production_id = #{productionId,jdbcType=INTEGER}
+  </update>
+</mapper>

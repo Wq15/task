@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.AuthorMapper">
+  <resultMap id="BaseResultMap" type="com.pojo.Author">
+    <id column="auhor_id" jdbcType="INTEGER" property="auhorId" />
+    <result column="author_name" jdbcType="VARCHAR" property="authorName" />
+    <result column="author_introduce" jdbcType="VARCHAR" property="authorIntroduce" />
+    <result column="author_production" jdbcType="VARCHAR" property="authorProduction" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    auhor_id, author_name, author_introduce, author_production, create_by, create_time, 
+    update_time, update_by
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from author
+    where auhor_id = #{auhorId,jdbcType=INTEGER}
+  </select>
+
+  <select id="selectAll" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from author
+  </select>
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from author
+    where auhor_id = #{auhorId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.pojo.Author">
+    insert into author (auhor_id, author_name, author_introduce, 
+      author_production, create_by, create_time, 
+      update_time, update_by)
+    values (#{auhorId,jdbcType=INTEGER}, #{authorName,jdbcType=VARCHAR}, #{authorIntroduce,jdbcType=VARCHAR}, 
+      #{authorProduction,jdbcType=VARCHAR}, #{createBy,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{updateBy,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.pojo.Author">
+    insert into author
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="auhorId != null">
+        auhor_id,
+      </if>
+      <if test="authorName != null">
+        author_name,
+      </if>
+      <if test="authorIntroduce != null">
+        author_introduce,
+      </if>
+      <if test="authorProduction != null">
+        author_production,
+      </if>
+      <if test="createBy != null">
+        create_by,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="updateBy != null">
+        update_by,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="auhorId != null">
+        #{auhorId,jdbcType=INTEGER},
+      </if>
+      <if test="authorName != null">
+        #{authorName,jdbcType=VARCHAR},
+      </if>
+      <if test="authorIntroduce != null">
+        #{authorIntroduce,jdbcType=VARCHAR},
+      </if>
+      <if test="authorProduction != null">
+        #{authorProduction,jdbcType=VARCHAR},
+      </if>
+      <if test="createBy != null">
+        #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateBy != null">
+        #{updateBy,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.pojo.Author">
+    update author
+    <set>
+      <if test="authorName != null">
+        author_name = #{authorName,jdbcType=VARCHAR},
+      </if>
+      <if test="authorIntroduce != null">
+        author_introduce = #{authorIntroduce,jdbcType=VARCHAR},
+      </if>
+      <if test="authorProduction != null">
+        author_production = #{authorProduction,jdbcType=VARCHAR},
+      </if>
+      <if test="createBy != null">
+        create_by = #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateBy != null">
+        update_by = #{updateBy,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where auhor_id = #{auhorId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.pojo.Author">
+    update author
+    set author_name = #{authorName,jdbcType=VARCHAR},
+      author_introduce = #{authorIntroduce,jdbcType=VARCHAR},
+      author_production = #{authorProduction,jdbcType=VARCHAR},
+      create_by = #{createBy,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      update_by = #{updateBy,jdbcType=VARCHAR}
+    where auhor_id = #{auhorId,jdbcType=INTEGER}
+  </update>
+</mapper>

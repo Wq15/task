@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="com">
+        <!--        &lt;!&ndash;    不扫描的@Controller类&ndash;&gt;-->
+        <!--        <context:exclude-filter type="annotation"-->
+        <!--                                expression="org.springframework.stereotype.Controller"/>-->
+    </context:component-scan>
+    <!--配置数据源   dbcp数据库连接池-->
+    <context:property-placeholder location="classpath:mybatis/mysql.properties"
+                                  ignore-unresolvable="true"/>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${wq.driver}"/>
+        <property name="url" value="${wq.url}"/>
+        <property name="username" value="${wq.username}"/>
+        <property name="password" value="${wq.password}"/>
+    </bean>
+
+    <!-- 配置sqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 数据库连接池 -->
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 配置数据库表对应的java实体类 -->
+        <property name="typeAliasesPackage" value="com.pojo" />
+        <!-- 扫描mapper映射文件 -->
+        <property name="mapperLocations" value="classpath:mybatis/mapping/*.xml"/>
+
+    </bean>
+
+    <!-- 配置mapper扫描器 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 扫描包路径，如果需要扫描多个包中间用半角逗号隔开 -->
+        <property name="basePackage" value="com.dao"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+
+
+</beans>
+
+
+
+
+
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xmlns:aop="http://www.springframework.org/schema/aop"-->
+<!--       xsi:schemaLocation="-->
+<!--           http://www.springframework.org/schema/beans-->
+<!--           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd-->
+<!--           http://www.springframework.org/schema/aop-->
+<!--           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd-->
+<!--           http://www.springframework.org/schema/context-->
+<!--           http://www.springframework.org/schema/context/spring-context-3.0.xsd">-->
+
+<!--    &lt;!&ndash;    引入mysql jdbc配置&ndash;&gt;-->
+<!--    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
+<!--        <property name="locations">-->
+<!--            <list>-->
+<!--                <value>classpath:mybatis/mysql.properties</value>-->
+<!--                &lt;!&ndash;要是有多个配置文件，只需要在这里继续添加即可&ndash;&gt;-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;    配置mysql数据源&ndash;&gt;-->
+<!--    &lt;!&ndash;创建数据源dataSource对象并注入到SqlSessionFactoryBean对象中&ndash;&gt;-->
+<!--    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >-->
+<!--        <property name="driverClassName" value="${driver}" />-->
+<!--        <property name="url" value="${url}" />-->
+<!--        <property name="username" value="${username}" />-->
+<!--        <property name="password" value="${password}" />-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;    自动扫描了所有的Xxx.XML对应的mapper接口文件，这样就不用一个个手动配置mapper的映射了，只要mapper接口类和mapper映射文件对应起来就可以了。&ndash;&gt;-->
+<!--    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
+<!--        <property name="basePackage" value="com.dao"/>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash; 配置Mybatis的文件 ，mapperLocations配置**Mapper.xml文件位置，configLocation配置mybatis-config文件位置&ndash;&gt;-->
+<!--    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
+<!--        <property name="dataSource" ref="dataSource"/>-->
+<!--        <property name="mapperLocations" value="classpath:mybatis/mapping/BannerMapper.xml"/>-->
+<!--        <property name="configLocation"  value="classpath:mybatis/mybatis.xml"/>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;    自动扫描注解的bean&ndash;&gt;-->
+<!--    <context:component-scan base-package="com.*"/>-->
+<!--    <bean id="userDao" class="org.mybatis.spring.mapper.MapperFactoryBean">-->
+<!--        <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>-->
+<!--        <property name="mapperInterface" value="com.dao.BannerMapper"></property>-->
+<!--    </bean>-->
+<!--</beans>-->

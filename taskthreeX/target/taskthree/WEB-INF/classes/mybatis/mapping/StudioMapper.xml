@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.StudioMapper">
+  <resultMap id="BaseResultMap" type="com.pojo.Studio">
+    <id column="studio_id" jdbcType="INTEGER" property="studioId" />
+    <result column="studio_name" jdbcType="VARCHAR" property="studioName" />
+    <result column="studio_introduce" jdbcType="VARCHAR" property="studioIntroduce" />
+    <result column="studio_connection" jdbcType="VARCHAR" property="studioConnection" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    studio_id, studio_name, studio_introduce, studio_connection, create_time, create_by, 
+    update_time, update_by
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from studio
+    where studio_id = #{studioId,jdbcType=INTEGER}
+  </select>
+
+  <select id="select" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from studio
+  </select>
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from studio
+    where studio_id = #{studioId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.pojo.Studio">
+    insert into studio (studio_id, studio_name, studio_introduce, 
+      studio_connection, create_time, create_by, 
+      update_time, update_by)
+    values (#{studioId,jdbcType=INTEGER}, #{studioName,jdbcType=VARCHAR}, #{studioIntroduce,jdbcType=VARCHAR}, 
+      #{studioConnection,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{createBy,jdbcType=VARCHAR}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{updateBy,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.pojo.Studio">
+    insert into studio
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="studioId != null">
+        studio_id,
+      </if>
+      <if test="studioName != null">
+        studio_name,
+      </if>
+      <if test="studioIntroduce != null">
+        studio_introduce,
+      </if>
+      <if test="studioConnection != null">
+        studio_connection,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="createBy != null">
+        create_by,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="updateBy != null">
+        update_by,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="studioId != null">
+        #{studioId,jdbcType=INTEGER},
+      </if>
+      <if test="studioName != null">
+        #{studioName,jdbcType=VARCHAR},
+      </if>
+      <if test="studioIntroduce != null">
+        #{studioIntroduce,jdbcType=VARCHAR},
+      </if>
+      <if test="studioConnection != null">
+        #{studioConnection,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createBy != null">
+        #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateBy != null">
+        #{updateBy,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.pojo.Studio">
+    update studio
+    <set>
+      <if test="studioName != null">
+        studio_name = #{studioName,jdbcType=VARCHAR},
+      </if>
+      <if test="studioIntroduce != null">
+        studio_introduce = #{studioIntroduce,jdbcType=VARCHAR},
+      </if>
+      <if test="studioConnection != null">
+        studio_connection = #{studioConnection,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createBy != null">
+        create_by = #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateBy != null">
+        update_by = #{updateBy,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where studio_id = #{studioId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.pojo.Studio">
+    update studio
+    set studio_name = #{studioName,jdbcType=VARCHAR},
+      studio_introduce = #{studioIntroduce,jdbcType=VARCHAR},
+      studio_connection = #{studioConnection,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      create_by = #{createBy,jdbcType=VARCHAR},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      update_by = #{updateBy,jdbcType=VARCHAR}
+    where studio_id = #{studioId,jdbcType=INTEGER}
+  </update>
+</mapper>

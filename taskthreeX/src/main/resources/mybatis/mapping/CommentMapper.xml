@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.CommentMapper">
+  <resultMap id="BaseResultMap" type="com.pojo.Comment">
+    <id column="visitor_id" jdbcType="INTEGER" property="visitorId" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="visitor_comment" jdbcType="VARCHAR" property="visitorComment" />
+      <result column="production_id" jdbcType="INTEGER" property="productionId" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+    <result column="comment_best" jdbcType="VARCHAR" property="commentBest" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    visitor_id, nickname, create_time, visitor_comment, production_id, status, update_time,
+    update_by, comment_best
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from comment
+    where visitor_id = #{visitorId,jdbcType=INTEGER}
+  </select>
+
+  <select id="selectByProductionId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from comment
+    where production_id = #{productionId,jdbcType=INTEGER}
+  </select>
+
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from comment
+    where visitor_id = #{visitorId,jdbcType=INTEGER}
+  </delete>
+
+
+  <insert id="insert" parameterType="com.pojo.Comment">
+    insert into comment (visitor_id, nickname, create_time, 
+      visitor_comment, production_id, status,
+      update_time, update_by, comment_best
+      )
+    values (#{visitorId,jdbcType=INTEGER}, #{nickname,jdbcType=VARCHAR}, #{createTime,jdbcType=BIGINT}, 
+      #{visitorComment,jdbcType=VARCHAR}, #{productionId,jdbcType=INTEGER}, #{status,jdbcType=INTEGER},
+      #{updateTime,jdbcType=TIMESTAMP}, #{updateBy,jdbcType=VARCHAR}, #{commentBest,jdbcType=VARCHAR}
+      )
+  </insert>
+
+
+  <insert id="insertSelective" parameterType="com.pojo.Comment">
+    insert into comment
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="visitorId != null">
+        visitor_id,
+      </if>
+      <if test="nickname != null">
+        nickname,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="visitorComment != null">
+        visitor_comment,
+      </if>
+      <if test="productionId != null">
+        production_id,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="updateBy != null">
+        update_by,
+      </if>
+      <if test="commentBest != null">
+        comment_best,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="visitorId != null">
+        #{visitorId,jdbcType=INTEGER},
+      </if>
+      <if test="nickname != null">
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="visitorComment != null">
+        #{visitorComment,jdbcType=VARCHAR},
+      </if>
+      <if test="productionId != null">
+        #{productionId,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateBy != null">
+        #{updateBy,jdbcType=VARCHAR},
+      </if>
+      <if test="commentBest != null">
+        #{commentBest,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+  <update id="updateByPrimaryKeySelective" parameterType="com.pojo.Comment">
+    update comment
+    <set>
+      <if test="nickname != null">
+        nickname = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=BIGINT},
+      </if>
+      <if test="visitorComment != null">
+        visitor_comment = #{visitorComment,jdbcType=VARCHAR},
+      </if>
+      <if test="productionId != null">
+        production_id = #{productionId,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateBy != null">
+        update_by = #{updateBy,jdbcType=VARCHAR},
+      </if>
+      <if test="commentBest != null">
+        comment_best = #{commentBest,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where visitor_id = #{visitorId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.pojo.Comment">
+    update comment
+    set nickname = #{nickname,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=BIGINT},
+      visitor_comment = #{visitorComment,jdbcType=VARCHAR},
+      production_id = #{productionId,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      update_by = #{updateBy,jdbcType=VARCHAR},
+      comment_best = #{commentBest,jdbcType=VARCHAR}
+    where visitor_id = #{visitorId,jdbcType=INTEGER}
+  </update>
+</mapper>
