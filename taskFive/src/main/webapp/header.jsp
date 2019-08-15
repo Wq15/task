@@ -10,19 +10,22 @@
 
 <%   Cookie[] cookies = request.getCookies();
     String token = null;
-
+    String ss=null;
     //有cookie就通过cookie获取用户信息
     //遍历cookies
     for (Cookie cook : cookies) {
 
         if (cook.getName().equals("token")) {
             token = cook.getValue();
+
+            Map<String, Claim> verifyToken = JwtTokenUtil.verifyToken(token);
+
+            ss = verifyToken.get("username").asString();
+            System.out.println(ss);
+
         }
+        break;
     }
-    Map<String, Claim> verifyToken = JwtTokenUtil.verifyToken(token);
-
-
-    String ss  =verifyToken.get("username").asString();
 %>
 
     <meta charset="utf-8">
@@ -71,7 +74,7 @@
                     <a href="/">
                         <li>登 录</li>
                     </a>
-                    <a href="/u/add">
+                    <a href="/add">
                         <li>注 册</li>
                     </a>
                 </c:if>

@@ -173,6 +173,7 @@ public class UserHandler {
 
                 int rs = userService.insertUser(user);
                 mv.addObject("message", rs);
+
             }
         }
         return mv;
