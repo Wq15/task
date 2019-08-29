@@ -1,0 +1,143 @@
+2019-08-29 09:37:49 [http-nio-8080-exec-5:0]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-29 09:37:50 [http-nio-8080-exec-5:675]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-29 09:37:50 [http-nio-8080-exec-5:676]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-29 09:37:50 [http-nio-8080-exec-5:676]-[INFO] 登录信息正确
+2019-08-29 09:37:51 [http-nio-8080-exec-5:1469]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1Njk2MzQ2NzAsInVzZXJuYW1lIjoiMjIyIn0.z7_N1Gjtj8I5V0kXMS2wCMyf_Hb3hLEOb8DAHkua16kToken的长度：160
+2019-08-29 09:37:51 [http-nio-8080-exec-5:1470]-[INFO] cookie:javax.servlet.http.Cookie@2853590d
+2019-08-29 09:37:51 [http-nio-8080-exec-5:1481]-[WARN] -----com.controller.UserHandler.Login 方法执行耗时：1505 ms
+2019-08-29 09:38:38 [http-nio-8080-exec-8:48751]-[INFO] 查询所有信息
+2019-08-29 09:38:38 [http-nio-8080-exec-8:48962]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@6d09804f, com.pojo.ExcellentStudent@3096e6f4, com.pojo.ExcellentStudent@2a0bb1c8, com.pojo.ExcellentStudent@2927db25]
+2019-08-29 09:38:38 [http-nio-8080-exec-8:48982]-[INFO] resylt:4
+2019-08-29 09:38:38 [http-nio-8080-exec-8:48982]-[WARN] -----com.controller.UserHandler.select 方法执行耗时：231 ms
+2019-08-29 09:41:51 [http-nio-8080-exec-4:12748]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-29 09:41:52 [http-nio-8080-exec-4:13384]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-29 09:41:52 [http-nio-8080-exec-4:13384]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-29 09:41:52 [http-nio-8080-exec-4:13385]-[INFO] 登录信息正确
+2019-08-29 09:41:53 [http-nio-8080-exec-4:14017]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1Njk2MzQ5MTIsInVzZXJuYW1lIjoiMjIyIn0.mxiywcNUP-QShKYrm5V6iyOnH6vbhHPxlnULiP21T0AToken的长度：160
+2019-08-29 09:41:53 [http-nio-8080-exec-4:14017]-[INFO] cookie:javax.servlet.http.Cookie@698e6b99
+2019-08-29 09:41:53 [http-nio-8080-exec-4:14021]-[WARN] -----com.controller.UserHandler.Login 方法执行耗时：1318 ms
+2019-08-29 09:44:57 [http-nio-8080-exec-9:198537]-[INFO] 查询所有信息
+2019-08-29 09:44:57 [http-nio-8080-exec-9:198730]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@5914799c, com.pojo.ExcellentStudent@5fd017b1, com.pojo.ExcellentStudent@8418e1e, com.pojo.ExcellentStudent@1e7660b3]
+2019-08-29 09:44:57 [http-nio-8080-exec-9:198749]-[INFO] resylt:4
+2019-08-29 09:44:57 [http-nio-8080-exec-9:198750]-[WARN] -----com.controller.UserHandler.select 方法执行耗时：213 ms
+2019-08-29 09:48:56 [http-nio-8080-exec-6:33227]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-29 09:48:57 [http-nio-8080-exec-6:34078]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-29 09:48:57 [http-nio-8080-exec-6:34078]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-29 09:48:57 [http-nio-8080-exec-6:34079]-[INFO] 登录信息正确
+2019-08-29 09:48:58 [http-nio-8080-exec-6:34708]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1Njk2MzUzMzcsInVzZXJuYW1lIjoiMjIyIn0.FqTzPxLYjttOysV8yCUe0wyFlPwRtOnVB-GxkMk018UToken的长度：160
+2019-08-29 09:48:58 [http-nio-8080-exec-6:34709]-[INFO] cookie:javax.servlet.http.Cookie@22c5b88e
+2019-08-29 09:48:58 [http-nio-8080-exec-6:34712]-[WARN] -----com.controller.UserHandler.Login 方法执行耗时：1521 ms
+2019-08-29 09:49:06 [http-nio-8080-exec-8:43217]-[INFO] 查询所有信息
+2019-08-29 09:49:07 [http-nio-8080-exec-8:43703]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@7eeb9f66, com.pojo.ExcellentStudent@4bbd5f3e, com.pojo.ExcellentStudent@1a0790d6, com.pojo.ExcellentStudent@15b3af5e]
+2019-08-29 09:49:07 [http-nio-8080-exec-8:43724]-[INFO] resylt:4
+2019-08-29 09:49:07 [http-nio-8080-exec-8:43725]-[WARN] -----com.controller.UserHandler.select 方法执行耗时：508 ms
+2019-08-29 09:49:27 [http-nio-8080-exec-10:64008]-[WARN] -----com.controller.UserHandler.ps 方法执行耗时：6 ms
+2019-08-29 09:49:35 [http-nio-8080-exec-2:71945]-[INFO] 查询所有信息
+2019-08-29 09:49:35 [http-nio-8080-exec-2:71954]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@27b3752, com.pojo.ExcellentStudent@17ee2b0a, com.pojo.ExcellentStudent@465c0bd9, com.pojo.ExcellentStudent@53b35bad]
+2019-08-29 09:49:35 [http-nio-8080-exec-2:71964]-[INFO] resylt:4
+2019-08-29 09:49:35 [http-nio-8080-exec-2:71965]-[WARN] -----com.controller.UserHandler.select 方法执行耗时：20 ms
+2019-08-29 10:34:11 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-29 10:34:11 [RMI TCP Connection(3)-127.0.0.1:152]-[INFO] Refreshing Root WebApplicationContext: startup date [Thu Aug 29 10:34:11 CST 2019]; root of context hierarchy
+2019-08-29 10:34:11 [RMI TCP Connection(3)-127.0.0.1:408]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-29 10:34:13 [RMI TCP Connection(3)-127.0.0.1:2209]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-29 10:34:14 [RMI TCP Connection(3)-127.0.0.1:2803]-[WARN] XMemcachedClient use Text protocol
+2019-08-29 10:34:14 [RMI TCP Connection(3)-127.0.0.1:2860]-[WARN] XMemcachedClient in failure mode.
+2019-08-29 10:34:14 [RMI TCP Connection(3)-127.0.0.1:2864]-[INFO] Creating 8 reactors...
+2019-08-29 10:34:14 [RMI TCP Connection(3)-127.0.0.1:2886]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-29 10:34:14 [Xmemcached-Reactor-0:2909]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-29 10:34:14 [RMI TCP Connection(3)-127.0.0.1:2984]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-29 10:34:14 [RMI TCP Connection(3)-127.0.0.1:3518]-[INFO] Root WebApplicationContext: initialization completed in 3513 ms
+2019-08-29 10:34:15 [RMI TCP Connection(3)-127.0.0.1:4611]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-29 10:34:15 [RMI TCP Connection(3)-127.0.0.1:4674]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-29 10:34:15 [RMI TCP Connection(3)-127.0.0.1:4678]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:34:15 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:34:15 [RMI TCP Connection(3)-127.0.0.1:4679]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:4910]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:4912]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:4913]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:5526]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:5529]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select() throws java.lang.InterruptedException,net.rubyeye.xmemcached.exception.MemcachedException,java.util.concurrent.TimeoutException
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:5530]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:5531]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps() throws java.lang.InterruptedException,net.rubyeye.xmemcached.exception.MemcachedException,java.util.concurrent.TimeoutException
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:5532]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-29 10:34:16 [RMI TCP Connection(3)-127.0.0.1:5532]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-29 10:34:17 [RMI TCP Connection(3)-127.0.0.1:6005]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:34:15 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:34:17 [RMI TCP Connection(3)-127.0.0.1:6090]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:34:15 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:34:17 [RMI TCP Connection(3)-127.0.0.1:6218]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-29 10:34:17 [RMI TCP Connection(3)-127.0.0.1:6238]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-29 10:34:17 [RMI TCP Connection(3)-127.0.0.1:6350]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1676 ms
+2019-08-29 10:47:07 [Catalina-utility-2:775785]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:34:15 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:47:07 [Catalina-utility-2:775803]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-29 10:47:07 [Catalina-utility-2:775820]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-29 10:47:07 [Catalina-utility-2:775821]-[INFO] Closing Root WebApplicationContext: startup date [Thu Aug 29 10:34:11 CST 2019]; root of context hierarchy
+2019-08-29 10:47:07 [Catalina-utility-2:775912]-[INFO] Controller has been stopped.
+2019-08-29 10:47:07 [Xmemcached-Reactor-2:775913]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-29 10:48:02 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-29 10:48:02 [RMI TCP Connection(3)-127.0.0.1:100]-[INFO] Refreshing Root WebApplicationContext: startup date [Thu Aug 29 10:48:02 CST 2019]; root of context hierarchy
+2019-08-29 10:48:02 [RMI TCP Connection(3)-127.0.0.1:239]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-29 10:48:04 [RMI TCP Connection(3)-127.0.0.1:2078]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-29 10:48:05 [RMI TCP Connection(3)-127.0.0.1:2790]-[WARN] XMemcachedClient use Text protocol
+2019-08-29 10:48:05 [RMI TCP Connection(3)-127.0.0.1:2870]-[WARN] XMemcachedClient in failure mode.
+2019-08-29 10:48:05 [RMI TCP Connection(3)-127.0.0.1:2875]-[INFO] Creating 8 reactors...
+2019-08-29 10:48:05 [RMI TCP Connection(3)-127.0.0.1:2904]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-29 10:48:05 [Xmemcached-Reactor-0:2932]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-29 10:48:05 [RMI TCP Connection(3)-127.0.0.1:3062]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-29 10:48:06 [RMI TCP Connection(3)-127.0.0.1:3741]-[INFO] Root WebApplicationContext: initialization completed in 3738 ms
+2019-08-29 10:48:07 [RMI TCP Connection(3)-127.0.0.1:4749]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-29 10:48:07 [RMI TCP Connection(3)-127.0.0.1:4815]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-29 10:48:07 [RMI TCP Connection(3)-127.0.0.1:4819]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:48:07 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:48:07 [RMI TCP Connection(3)-127.0.0.1:4819]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-29 10:48:07 [RMI TCP Connection(3)-127.0.0.1:5079]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:48:07 [RMI TCP Connection(3)-127.0.0.1:5081]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:48:07 [RMI TCP Connection(3)-127.0.0.1:5082]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:48:08 [RMI TCP Connection(3)-127.0.0.1:5765]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-29 10:48:08 [RMI TCP Connection(3)-127.0.0.1:5768]-[INFO] Mapped "{[/home],methods=[GET]}" onto public java.util.List<com.pojo.ExcellentStudent> com.controller.UserHandler.select() throws java.lang.InterruptedException,net.rubyeye.xmemcached.exception.MemcachedException,java.util.concurrent.TimeoutException
+2019-08-29 10:48:08 [RMI TCP Connection(3)-127.0.0.1:5769]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps() throws java.lang.InterruptedException,net.rubyeye.xmemcached.exception.MemcachedException,java.util.concurrent.TimeoutException
+2019-08-29 10:48:08 [RMI TCP Connection(3)-127.0.0.1:5770]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-29 10:48:08 [RMI TCP Connection(3)-127.0.0.1:5770]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-29 10:48:08 [RMI TCP Connection(3)-127.0.0.1:5771]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-29 10:48:08 [RMI TCP Connection(3)-127.0.0.1:6317]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:48:07 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:48:09 [RMI TCP Connection(3)-127.0.0.1:6419]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:48:07 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:48:09 [RMI TCP Connection(3)-127.0.0.1:6536]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-29 10:48:09 [RMI TCP Connection(3)-127.0.0.1:6555]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-29 10:48:09 [RMI TCP Connection(3)-127.0.0.1:6679]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1863 ms
+2019-08-29 10:53:27 [Catalina-utility-1:324816]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:48:07 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:53:27 [Catalina-utility-1:324837]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-29 10:53:27 [Catalina-utility-1:324866]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-29 10:53:27 [Catalina-utility-1:324867]-[INFO] Closing Root WebApplicationContext: startup date [Thu Aug 29 10:48:02 CST 2019]; root of context hierarchy
+2019-08-29 10:53:27 [Catalina-utility-1:324941]-[INFO] Controller has been stopped.
+2019-08-29 10:53:27 [Xmemcached-Reactor-2:324941]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-29 10:54:19 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-29 10:54:19 [RMI TCP Connection(3)-127.0.0.1:118]-[INFO] Refreshing Root WebApplicationContext: startup date [Thu Aug 29 10:54:19 CST 2019]; root of context hierarchy
+2019-08-29 10:54:19 [RMI TCP Connection(3)-127.0.0.1:277]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-29 10:54:21 [RMI TCP Connection(3)-127.0.0.1:2103]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-29 10:54:22 [RMI TCP Connection(3)-127.0.0.1:2825]-[WARN] XMemcachedClient use Text protocol
+2019-08-29 10:54:22 [RMI TCP Connection(3)-127.0.0.1:2900]-[WARN] XMemcachedClient in failure mode.
+2019-08-29 10:54:22 [RMI TCP Connection(3)-127.0.0.1:2904]-[INFO] Creating 8 reactors...
+2019-08-29 10:54:22 [RMI TCP Connection(3)-127.0.0.1:2925]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-29 10:54:22 [Xmemcached-Reactor-0:2947]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-29 10:54:22 [RMI TCP Connection(3)-127.0.0.1:3039]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-29 10:54:23 [RMI TCP Connection(3)-127.0.0.1:3585]-[INFO] Root WebApplicationContext: initialization completed in 3581 ms
+2019-08-29 10:54:24 [RMI TCP Connection(3)-127.0.0.1:4545]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-29 10:54:24 [RMI TCP Connection(3)-127.0.0.1:4614]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-29 10:54:24 [RMI TCP Connection(3)-127.0.0.1:4623]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:54:24 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:54:24 [RMI TCP Connection(3)-127.0.0.1:4623]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-29 10:54:24 [RMI TCP Connection(3)-127.0.0.1:4827]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:54:24 [RMI TCP Connection(3)-127.0.0.1:4829]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:54:24 [RMI TCP Connection(3)-127.0.0.1:4830]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:5493]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:5496]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:5497]-[INFO] Mapped "{[/home],methods=[GET]}" onto public java.util.List<com.pojo.ExcellentStudent> com.controller.UserHandler.select() throws java.lang.InterruptedException,net.rubyeye.xmemcached.exception.MemcachedException,java.util.concurrent.TimeoutException
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:5497]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps() throws java.lang.InterruptedException,net.rubyeye.xmemcached.exception.MemcachedException,java.util.concurrent.TimeoutException
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:5498]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:5499]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:5973]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:54:24 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:6069]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:54:24 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:6204]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:6223]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-29 10:54:25 [RMI TCP Connection(3)-127.0.0.1:6354]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1740 ms
+2019-08-29 17:10:09 [main:22549495]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Thu Aug 29 10:54:24 CST 2019]; parent: Root WebApplicationContext
+2019-08-29 17:10:09 [main:22549509]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-29 17:10:09 [main:22549515]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-29 17:10:09 [main:22549516]-[INFO] Closing Root WebApplicationContext: startup date [Thu Aug 29 10:54:19 CST 2019]; root of context hierarchy
+2019-08-29 17:10:09 [main:22549574]-[INFO] Controller has been stopped.
+2019-08-29 17:10:09 [Xmemcached-Reactor-2:22549574]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211

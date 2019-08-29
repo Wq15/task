@@ -1,0 +1,339 @@
+2019-08-10 09:37:45 [http-nio-8080-exec-9:46850071]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 09:37:45 [http-nio-8080-exec-9:46850105]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQwMTEyNSwiaWF0IjoxNTY1NDAxMDY1LCJhZ2UiOjExfQ.AaggnVxjAh00NuCk38uFwBw68zaWJ0V-YiCi6u8WPD8Token的长度：159
+2019-08-10 09:37:45 [http-nio-8080-exec-9:46850106]-[INFO] cookie:com.pojo.CookieTool@7ec85c27
+2019-08-10 09:37:56 [http-nio-8080-exec-2:46861485]-[INFO] {"name":"wqe","pwd":"qee"}
+2019-08-10 09:37:56 [http-nio-8080-exec-2:46861497]-[INFO] 加盐后的密码：113e9109786a71c48c533447c89d1661729af5e395250306加盐后的密码长度：48
+2019-08-10 09:38:07 [http-nio-8080-exec-5:46872751]-[INFO] user:User{id=null, name='32', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:00:42 [main:48227334]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Fri Aug 09 20:36:59 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:00:42 [main:48227336]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 10:00:42 [main:48227344]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 10:00:42 [main:48227344]-[INFO] Closing Root WebApplicationContext: startup date [Fri Aug 09 20:36:55 CST 2019]; root of context hierarchy
+2019-08-10 10:01:04 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-10 10:01:04 [RMI TCP Connection(3)-127.0.0.1:306]-[INFO] Refreshing Root WebApplicationContext: startup date [Sat Aug 10 10:01:04 CST 2019]; root of context hierarchy
+2019-08-10 10:01:04 [RMI TCP Connection(3)-127.0.0.1:396]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-10 10:01:06 [RMI TCP Connection(3)-127.0.0.1:2192]-[INFO] Loading properties file from class path resource [mybatis/mysql.properties]
+2019-08-10 10:01:06 [RMI TCP Connection(3)-127.0.0.1:2366]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-10 10:01:07 [RMI TCP Connection(3)-127.0.0.1:2975]-[INFO] Root WebApplicationContext: initialization completed in 2972 ms
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:3954]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4013]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4016]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:01:08 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4017]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4176]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4177]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4177]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4592]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4595]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4595]-[INFO] Mapped "{[/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4597]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-10 10:01:08 [RMI TCP Connection(3)-127.0.0.1:4598]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-10 10:01:09 [RMI TCP Connection(3)-127.0.0.1:5277]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:01:08 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:01:09 [RMI TCP Connection(3)-127.0.0.1:5378]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:01:08 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:01:09 [RMI TCP Connection(3)-127.0.0.1:5529]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 10:01:09 [RMI TCP Connection(3)-127.0.0.1:5551]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-10 10:01:09 [RMI TCP Connection(3)-127.0.0.1:5649]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1636 ms
+2019-08-10 10:01:14 [http-nio-8080-exec-5:10374]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:01:14 [http-nio-8080-exec-5:10778]-[INFO] user的ID：1
+2019-08-10 10:01:14 [http-nio-8080-exec-5:10778]-[INFO] 登录失败
+2019-08-10 10:01:19 [http-nio-8080-exec-7:15214]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:01:19 [http-nio-8080-exec-7:15229]-[INFO] user的ID：1
+2019-08-10 10:01:19 [http-nio-8080-exec-7:15230]-[INFO] 登录失败
+2019-08-10 10:01:26 [http-nio-8080-exec-10:22000]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:01:26 [http-nio-8080-exec-10:22012]-[INFO] user的ID：1
+2019-08-10 10:01:26 [http-nio-8080-exec-10:22013]-[INFO] 登录失败
+2019-08-10 10:01:44 [http-nio-8080-exec-4:40240]-[INFO] {"name":"55","pwd":"55"}
+2019-08-10 10:01:44 [http-nio-8080-exec-4:40249]-[INFO] 加盐后的密码：f9a36f002070a3f088786c0c384e07b42d6238fb3703656e加盐后的密码长度：48
+2019-08-10 10:01:49 [http-nio-8080-exec-7:45392]-[INFO] user:User{id=null, name='155', pwd='55', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:01:49 [http-nio-8080-exec-7:45407]-[INFO] 登录失败
+2019-08-10 10:01:56 [http-nio-8080-exec-9:52873]-[INFO] user:User{id=null, name='55', pwd='55', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:01:56 [http-nio-8080-exec-9:52886]-[INFO] user的ID：17
+2019-08-10 10:01:56 [http-nio-8080-exec-9:52887]-[INFO] 登录失败
+2019-08-10 10:04:36 [main:212264]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:01:08 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:04:36 [main:212265]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 10:04:36 [main:212270]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 10:04:36 [main:212270]-[INFO] Closing Root WebApplicationContext: startup date [Sat Aug 10 10:01:04 CST 2019]; root of context hierarchy
+2019-08-10 10:04:57 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-10 10:04:57 [RMI TCP Connection(3)-127.0.0.1:245]-[INFO] Refreshing Root WebApplicationContext: startup date [Sat Aug 10 10:04:57 CST 2019]; root of context hierarchy
+2019-08-10 10:04:58 [RMI TCP Connection(3)-127.0.0.1:366]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-10 10:05:00 [RMI TCP Connection(3)-127.0.0.1:2743]-[INFO] Loading properties file from class path resource [mybatis/mysql.properties]
+2019-08-10 10:05:00 [RMI TCP Connection(3)-127.0.0.1:2972]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-10 10:05:01 [RMI TCP Connection(3)-127.0.0.1:3471]-[INFO] Root WebApplicationContext: initialization completed in 3468 ms
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:4369]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:4435]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:4440]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:05:02 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:4441]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:4671]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:4672]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:4673]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:5157]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:5164]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:5166]-[INFO] Mapped "{[/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:5178]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-10 10:05:02 [RMI TCP Connection(3)-127.0.0.1:5181]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-10 10:05:03 [RMI TCP Connection(3)-127.0.0.1:6036]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:05:02 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:05:03 [RMI TCP Connection(3)-127.0.0.1:6154]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:05:02 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:05:03 [RMI TCP Connection(3)-127.0.0.1:6328]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 10:05:03 [RMI TCP Connection(3)-127.0.0.1:6349]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-10 10:05:04 [RMI TCP Connection(3)-127.0.0.1:6465]-[INFO] FrameworkServlet 'springMVC': initialization completed in 2029 ms
+2019-08-10 10:05:13 [http-nio-8080-exec-4:16165]-[INFO] user:User{id=null, name='55', pwd='55', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:05:14 [http-nio-8080-exec-4:16586]-[INFO] user的ID：User{id=17, name='55', pwd='f9a36f002070a3f088786c0c384e07b42d6238fb3703656e', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:05:14 [http-nio-8080-exec-4:16587]-[INFO] 名字：55  密码：54c932327d5fb5cb25109327c79023a2214373394f273341
+2019-08-10 10:05:14 [http-nio-8080-exec-4:16588]-[INFO] 登录失败
+2019-08-10 10:24:43 [http-nio-8080-exec-7:1185634]-[INFO] user:User{id=null, name='32', pwd='2', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:24:43 [http-nio-8080-exec-7:1185647]-[INFO] 登录失败
+2019-08-10 10:24:49 [http-nio-8080-exec-9:1191411]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:24:49 [http-nio-8080-exec-9:1191427]-[INFO] user的ID：User{id=1, name='1', pwd='1', salt='11111', email='1', createTime=null, updateTime=null}
+2019-08-10 10:24:49 [http-nio-8080-exec-9:1191428]-[INFO] 名字：1  密码：634b02122936e57c1344b118114d0918520f341a3f52409c
+2019-08-10 10:24:49 [http-nio-8080-exec-9:1191428]-[INFO] 登录失败
+2019-08-10 10:24:59 [http-nio-8080-exec-2:1201968]-[INFO] user:User{id=null, name='55', pwd='55', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:24:59 [http-nio-8080-exec-2:1201980]-[INFO] user的ID：User{id=17, name='55', pwd='f9a36f002070a3f088786c0c384e07b42d6238fb3703656e', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:24:59 [http-nio-8080-exec-2:1201981]-[INFO] 名字：55  密码：290e3955885610a357c7ae23f7f32422eb8ca39677d92f68
+2019-08-10 10:24:59 [http-nio-8080-exec-2:1201981]-[INFO] 登录失败
+2019-08-10 10:45:18 [http-nio-8080-exec-6:2421211]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:45:18 [http-nio-8080-exec-6:2421226]-[INFO] user的ID：User{id=1, name='1', pwd='1', salt='11111', email='1', createTime=null, updateTime=null}
+2019-08-10 10:45:18 [http-nio-8080-exec-6:2421227]-[INFO] 名字：1  密码：185c1919f968e7508c90c55e23b09253870f98614c729d5b
+2019-08-10 10:45:18 [http-nio-8080-exec-6:2421227]-[INFO] 登录失败
+2019-08-10 10:45:35 [main:2438328]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:05:02 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:45:35 [main:2438330]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 10:45:35 [main:2438338]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 10:45:35 [main:2438338]-[INFO] Closing Root WebApplicationContext: startup date [Sat Aug 10 10:04:57 CST 2019]; root of context hierarchy
+2019-08-10 10:45:57 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-10 10:45:57 [RMI TCP Connection(3)-127.0.0.1:293]-[INFO] Refreshing Root WebApplicationContext: startup date [Sat Aug 10 10:45:57 CST 2019]; root of context hierarchy
+2019-08-10 10:45:57 [RMI TCP Connection(3)-127.0.0.1:391]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-10 10:45:59 [RMI TCP Connection(3)-127.0.0.1:2230]-[INFO] Loading properties file from class path resource [mybatis/mysql.properties]
+2019-08-10 10:45:59 [RMI TCP Connection(3)-127.0.0.1:2424]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-10 10:46:00 [RMI TCP Connection(3)-127.0.0.1:2988]-[INFO] Root WebApplicationContext: initialization completed in 2983 ms
+2019-08-10 10:46:01 [RMI TCP Connection(3)-127.0.0.1:4019]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 10:46:01 [RMI TCP Connection(3)-127.0.0.1:4105]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-10 10:46:01 [RMI TCP Connection(3)-127.0.0.1:4109]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:46:01 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:46:01 [RMI TCP Connection(3)-127.0.0.1:4110]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-10 10:46:01 [RMI TCP Connection(3)-127.0.0.1:4300]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:46:01 [RMI TCP Connection(3)-127.0.0.1:4301]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:46:01 [RMI TCP Connection(3)-127.0.0.1:4301]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 10:46:02 [RMI TCP Connection(3)-127.0.0.1:4754]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-10 10:46:02 [RMI TCP Connection(3)-127.0.0.1:4756]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-10 10:46:02 [RMI TCP Connection(3)-127.0.0.1:4756]-[INFO] Mapped "{[/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-10 10:46:02 [RMI TCP Connection(3)-127.0.0.1:4757]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-10 10:46:02 [RMI TCP Connection(3)-127.0.0.1:4758]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-10 10:46:02 [RMI TCP Connection(3)-127.0.0.1:5313]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:46:01 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:46:02 [RMI TCP Connection(3)-127.0.0.1:5427]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:46:01 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 10:46:03 [RMI TCP Connection(3)-127.0.0.1:5605]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 10:46:03 [RMI TCP Connection(3)-127.0.0.1:5629]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-10 10:46:03 [RMI TCP Connection(3)-127.0.0.1:5788]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1683 ms
+2019-08-10 10:46:06 [http-nio-8080-exec-4:8839]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:46:06 [http-nio-8080-exec-4:9286]-[INFO] user的ID：User{id=1, name='1', pwd='1', salt='11111', email='1', createTime=null, updateTime=null}
+2019-08-10 10:46:06 [http-nio-8080-exec-4:9286]-[INFO] 名字：1  密码：15561772ee1315e96df97800e76390a45a00f4f25e39a196
+2019-08-10 10:46:06 [http-nio-8080-exec-4:9286]-[INFO] 登录失败
+2019-08-10 10:46:35 [http-nio-8080-exec-7:38376]-[INFO] user:User{id=null, name='1', pwd='15561772ee1315e96df97800e76390a45a00f4f25e39a196', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:46:35 [http-nio-8080-exec-7:38391]-[INFO] user的ID：User{id=1, name='1', pwd='1', salt='11111', email='1', createTime=null, updateTime=null}
+2019-08-10 10:46:35 [http-nio-8080-exec-7:38392]-[INFO] 名字：1  密码：16df04302b66725b9b676679a77b92238a38c22c97f26012
+2019-08-10 10:46:35 [http-nio-8080-exec-7:38393]-[INFO] 登录失败
+2019-08-10 10:46:56 [http-nio-8080-exec-10:58767]-[INFO] user:User{id=null, name='55', pwd='f9a36f002070a3f088786c0c384e07b42d6238fb3703656e', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:46:56 [http-nio-8080-exec-10:58780]-[INFO] user的ID：User{id=17, name='55', pwd='f9a36f002070a3f088786c0c384e07b42d6238fb3703656e', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 10:46:56 [http-nio-8080-exec-10:58780]-[INFO] 名字：55  密码：46064ed9456d306021f8ac9b650242a04109d4fb87c18b10
+2019-08-10 10:46:56 [http-nio-8080-exec-10:58780]-[INFO] 登录失败
+2019-08-10 11:42:45 [main:3408367]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 10:46:01 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:42:45 [main:3408371]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 11:42:45 [main:3408375]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 11:42:45 [main:3408375]-[INFO] Closing Root WebApplicationContext: startup date [Sat Aug 10 10:45:57 CST 2019]; root of context hierarchy
+2019-08-10 11:43:05 [RMI TCP Connection(4)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-10 11:43:06 [RMI TCP Connection(4)-127.0.0.1:228]-[INFO] Refreshing Root WebApplicationContext: startup date [Sat Aug 10 11:43:06 CST 2019]; root of context hierarchy
+2019-08-10 11:43:06 [RMI TCP Connection(4)-127.0.0.1:296]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-10 11:43:08 [RMI TCP Connection(4)-127.0.0.1:2198]-[INFO] Loading properties file from class path resource [mybatis/mysql.properties]
+2019-08-10 11:43:08 [RMI TCP Connection(4)-127.0.0.1:2350]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-10 11:43:08 [RMI TCP Connection(4)-127.0.0.1:2836]-[INFO] Root WebApplicationContext: initialization completed in 2833 ms
+2019-08-10 11:43:09 [RMI TCP Connection(4)-127.0.0.1:3778]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 11:43:09 [RMI TCP Connection(4)-127.0.0.1:3845]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-10 11:43:09 [RMI TCP Connection(4)-127.0.0.1:3848]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:43:09 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:43:09 [RMI TCP Connection(4)-127.0.0.1:3849]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-10 11:43:10 [RMI TCP Connection(4)-127.0.0.1:4042]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:43:10 [RMI TCP Connection(4)-127.0.0.1:4043]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:43:10 [RMI TCP Connection(4)-127.0.0.1:4043]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:43:10 [RMI TCP Connection(4)-127.0.0.1:4504]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-10 11:43:10 [RMI TCP Connection(4)-127.0.0.1:4505]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-10 11:43:10 [RMI TCP Connection(4)-127.0.0.1:4506]-[INFO] Mapped "{[/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-10 11:43:10 [RMI TCP Connection(4)-127.0.0.1:4507]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-10 11:43:10 [RMI TCP Connection(4)-127.0.0.1:4508]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-10 11:43:11 [RMI TCP Connection(4)-127.0.0.1:5197]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:43:09 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:43:11 [RMI TCP Connection(4)-127.0.0.1:5332]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:43:09 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:43:11 [RMI TCP Connection(4)-127.0.0.1:5532]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 11:43:11 [RMI TCP Connection(4)-127.0.0.1:5568]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-10 11:43:11 [RMI TCP Connection(4)-127.0.0.1:5703]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1858 ms
+2019-08-10 11:43:14 [http-nio-8080-exec-4:8676]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:43:15 [http-nio-8080-exec-4:9096]-[INFO] user的ID：User{id=1, name='1', pwd='1', salt='11111', email='1', createTime=null, updateTime=null}
+2019-08-10 11:43:15 [http-nio-8080-exec-4:9096]-[INFO] 名字：1  密码：1 e6 e0 a0 4d 20 f5 09 67 c6 4d ac 2d 63 9a 57 7
+2019-08-10 11:43:15 [http-nio-8080-exec-4:9098]-[INFO] 登录失败
+2019-08-10 11:43:27 [http-nio-8080-exec-7:21127]-[INFO] {"name":"66","pwd":"66"}
+2019-08-10 11:43:27 [http-nio-8080-exec-7:21135]-[INFO] 加盐后的密码：f f2 b3 bd c1 23 22 a5 99 dd 08 c1 0a 36 12 b9 5加盐后的密码长度：48
+2019-08-10 11:43:47 [http-nio-8080-exec-10:41875]-[INFO] user:User{id=null, name='66', pwd='66', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:43:47 [http-nio-8080-exec-10:41885]-[INFO] user的ID：User{id=18, name='66', pwd='f f2 b3 bd c1 23 22 a5 99 dd 08 c1 0a 36 12 b9 5', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:43:47 [http-nio-8080-exec-10:41885]-[INFO] 名字：66  密码：f f2 b3 bd c1 23 22 a5 99 dd 08 c1 0a 36 12 b9 5
+2019-08-10 11:43:47 [http-nio-8080-exec-10:41886]-[INFO] 登录信息正确
+2019-08-10 11:43:48 [http-nio-8080-exec-10:42610]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQwODY4NywiaWF0IjoxNTY1NDA4NjI3LCJhZ2UiOjExfQ.oaipW6hYnLKQQDGfTxDeLgkJUqsrgv8pA9fziSz_ABcToken的长度：159
+2019-08-10 11:43:48 [http-nio-8080-exec-10:42610]-[INFO] cookie:com.pojo.CookieTool@4e58c41e
+2019-08-10 11:43:56 [http-nio-8080-exec-2:50738]-[INFO] user:User{id=null, name='66', pwd='f', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:43:56 [http-nio-8080-exec-2:50750]-[INFO] user的ID：User{id=18, name='66', pwd='f f2 b3 bd c1 23 22 a5 99 dd 08 c1 0a 36 12 b9 5', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:43:56 [http-nio-8080-exec-2:50750]-[INFO] 名字：66  密码：e c9 d0 ed 15 24 75 ae 8b 08 8e 88 55 74 fd 56 7
+2019-08-10 11:43:56 [http-nio-8080-exec-2:50750]-[INFO] 登录失败
+2019-08-10 11:44:16 [http-nio-8080-exec-5:70595]-[INFO] {"name":"dfs","pwd":"3"}
+2019-08-10 11:44:16 [http-nio-8080-exec-5:70603]-[INFO] 加盐后的密码：c c3 d6 9e d7 81 b1 6b ce 06 68 78 22 ae 56 e6 d加盐后的密码长度：48
+2019-08-10 11:45:07 [http-nio-8080-exec-1:121059]-[INFO] {"name":"q","pwd":"q"}
+2019-08-10 11:45:07 [http-nio-8080-exec-1:121067]-[INFO] 加盐后的密码：6 2a fe 8c 26 ab 23 19 8a b5 83 a0 c1 02 44 fd 4加盐后的密码长度：48
+2019-08-10 11:46:12 [http-nio-8080-exec-6:186970]-[INFO] {"name":"80","pwd":"80"}
+2019-08-10 11:46:12 [http-nio-8080-exec-6:186985]-[INFO] 加盐后的密码：c a7 d4 43 68 9d b6 35 a5 47 4b ea 12 f5 3b 20 a加盐后的密码长度：48
+2019-08-10 11:46:29 [http-nio-8080-exec-10:203595]-[INFO] user:User{id=null, name='80', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:46:29 [http-nio-8080-exec-10:203604]-[INFO] user的ID：User{id=21, name='80', pwd='c a7 d4 43 68 9d b6 35 a5 47 4b ea 12 f5 3b 20 a', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:46:29 [http-nio-8080-exec-10:203604]-[INFO] 名字：80  密码：1 e6 e0 a0 4d 20 f5 09 67 c6 4d ac 2d 63 9a 57 7
+2019-08-10 11:46:29 [http-nio-8080-exec-10:203605]-[INFO] 登录失败
+2019-08-10 11:46:32 [http-nio-8080-exec-1:206663]-[INFO] user:User{id=null, name='80', pwd='80', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:46:32 [http-nio-8080-exec-1:206672]-[INFO] user的ID：User{id=21, name='80', pwd='c a7 d4 43 68 9d b6 35 a5 47 4b ea 12 f5 3b 20 a', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:46:32 [http-nio-8080-exec-1:206673]-[INFO] 名字：80  密码：c a7 d4 43 68 9d b6 35 a5 47 4b ea 12 f5 3b 20 a
+2019-08-10 11:46:32 [http-nio-8080-exec-1:206673]-[INFO] 登录信息正确
+2019-08-10 11:46:32 [http-nio-8080-exec-1:206687]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQwODg1MiwiaWF0IjoxNTY1NDA4NzkyLCJhZ2UiOjExfQ.vLBqGi-Emtexa0_dWILeEoK3opA11tCtN1ifEzI1jRIToken的长度：159
+2019-08-10 11:46:32 [http-nio-8080-exec-1:206687]-[INFO] cookie:com.pojo.CookieTool@4950114c
+2019-08-10 11:48:50 [Catalina-utility-2:344048]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:43:09 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:48:50 [Catalina-utility-2:344049]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 11:48:50 [Catalina-utility-2:344073]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 11:48:50 [Catalina-utility-2:344073]-[INFO] Closing Root WebApplicationContext: startup date [Sat Aug 10 11:43:06 CST 2019]; root of context hierarchy
+2019-08-10 11:50:14 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-10 11:50:14 [RMI TCP Connection(3)-127.0.0.1:291]-[INFO] Refreshing Root WebApplicationContext: startup date [Sat Aug 10 11:50:14 CST 2019]; root of context hierarchy
+2019-08-10 11:50:14 [RMI TCP Connection(3)-127.0.0.1:379]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-10 11:50:16 [RMI TCP Connection(3)-127.0.0.1:2841]-[INFO] Loading properties file from class path resource [mybatis/mysql.properties]
+2019-08-10 11:50:17 [RMI TCP Connection(3)-127.0.0.1:3045]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-10 11:50:18 [RMI TCP Connection(3)-127.0.0.1:4004]-[INFO] Root WebApplicationContext: initialization completed in 4001 ms
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5081]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5155]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5161]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:50:19 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5162]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5366]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5367]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5367]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5793]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5795]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5796]-[INFO] Mapped "{[/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5798]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-10 11:50:19 [RMI TCP Connection(3)-127.0.0.1:5799]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-10 11:50:20 [RMI TCP Connection(3)-127.0.0.1:6747]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:50:19 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:50:20 [RMI TCP Connection(3)-127.0.0.1:6874]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:50:19 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:50:21 [RMI TCP Connection(3)-127.0.0.1:7052]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 11:50:21 [RMI TCP Connection(3)-127.0.0.1:7076]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-10 11:50:21 [RMI TCP Connection(3)-127.0.0.1:7203]-[INFO] FrameworkServlet 'springMVC': initialization completed in 2047 ms
+2019-08-10 11:50:47 [http-nio-8080-exec-7:33588]-[INFO] {"name":"999","pwd":"999"}
+2019-08-10 11:50:48 [http-nio-8080-exec-7:34036]-[INFO] 加盐后的密码：2 db 02 67 61 96 99 62 c7 1e 16 4b b9 b0 ea c0 a加盐后的密码长度：48
+2019-08-10 11:51:51 [main:97849]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:50:19 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:51:51 [main:97850]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 11:51:51 [main:97855]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 11:51:51 [main:97856]-[INFO] Closing Root WebApplicationContext: startup date [Sat Aug 10 11:50:14 CST 2019]; root of context hierarchy
+2019-08-10 11:52:12 [RMI TCP Connection(5)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-10 11:52:13 [RMI TCP Connection(5)-127.0.0.1:542]-[INFO] Refreshing Root WebApplicationContext: startup date [Sat Aug 10 11:52:13 CST 2019]; root of context hierarchy
+2019-08-10 11:52:13 [RMI TCP Connection(5)-127.0.0.1:629]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-10 11:52:16 [RMI TCP Connection(5)-127.0.0.1:3565]-[INFO] Loading properties file from class path resource [mybatis/mysql.properties]
+2019-08-10 11:52:16 [RMI TCP Connection(5)-127.0.0.1:3861]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-10 11:52:17 [RMI TCP Connection(5)-127.0.0.1:4487]-[INFO] Root WebApplicationContext: initialization completed in 4482 ms
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:5501]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:5561]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:5564]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:52:18 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:5565]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:5734]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:5735]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:5735]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:6164]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:6167]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:6167]-[INFO] Mapped "{[/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:6169]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-10 11:52:18 [RMI TCP Connection(5)-127.0.0.1:6170]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-10 11:52:19 [RMI TCP Connection(5)-127.0.0.1:6802]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:52:18 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:52:19 [RMI TCP Connection(5)-127.0.0.1:6891]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:52:18 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 11:52:19 [RMI TCP Connection(5)-127.0.0.1:7025]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 11:52:19 [RMI TCP Connection(5)-127.0.0.1:7044]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-10 11:52:19 [RMI TCP Connection(5)-127.0.0.1:7157]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1596 ms
+2019-08-10 11:52:33 [http-nio-8080-exec-7:20652]-[INFO] {"name":"123","pwd":"123"}
+2019-08-10 11:52:33 [http-nio-8080-exec-7:21115]-[INFO] 加盐后的密码：b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e加盐后的密码长度：48
+2019-08-10 11:52:33 [http-nio-8080-exec-7:21115]-[INFO] b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e
+2019-08-10 11:54:50 [http-nio-8080-exec-1:158104]-[INFO] user:User{id=null, name='123', pwd='123', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:54:50 [http-nio-8080-exec-1:158119]-[INFO] user的ID：User{id=23, name='123', pwd='b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 11:54:50 [http-nio-8080-exec-1:158119]-[INFO] 名字：123  密码：b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e
+2019-08-10 11:54:50 [http-nio-8080-exec-1:158120]-[INFO] 登录信息正确
+2019-08-10 11:54:51 [http-nio-8080-exec-1:158704]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQwOTM1MCwiaWF0IjoxNTY1NDA5MjkwLCJhZ2UiOjExfQ.BTrZPD3P5vZIJjvAvpkZBmed6h8eX0U7pwSEEqECqnIToken的长度：159
+2019-08-10 11:54:51 [http-nio-8080-exec-1:158704]-[INFO] cookie:com.pojo.CookieTool@143e24af
+2019-08-10 12:00:05 [http-nio-8080-exec-7:472796]-[INFO] user:User{id=null, name='123', pwd='123', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 12:00:05 [http-nio-8080-exec-7:472811]-[INFO] user的ID：User{id=23, name='123', pwd='b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 12:00:05 [http-nio-8080-exec-7:472812]-[INFO] 名字：123  密码：b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e
+2019-08-10 12:00:05 [http-nio-8080-exec-7:472812]-[INFO] 登录信息正确
+2019-08-10 12:00:05 [http-nio-8080-exec-7:472824]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQwOTY2NSwiaWF0IjoxNTY1NDA5NjA1LCJhZ2UiOjExfQ.o9n4xHYRkPgtG7Vvd2wCUxwQ3ZtZW-uql8X0fr9Ps4cToken的长度：159
+2019-08-10 12:00:05 [http-nio-8080-exec-7:472825]-[INFO] cookie:com.pojo.CookieTool@1b1f10e0
+2019-08-10 14:06:18 [http-nio-8080-exec-3:8045310]-[INFO] user:User{id=null, name='123', pwd='12', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:06:18 [http-nio-8080-exec-3:8045321]-[INFO] user的ID：User{id=23, name='123', pwd='b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:06:18 [http-nio-8080-exec-3:8045322]-[INFO] 名字：123  密码：c 88 29 bc fb 9c 1d 89 b9 3f 14 de e9 ad d8 a0 b
+2019-08-10 14:06:18 [http-nio-8080-exec-3:8045322]-[INFO] 登录失败
+2019-08-10 14:06:20 [http-nio-8080-exec-1:8048006]-[INFO] user:User{id=null, name='123', pwd='123', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:06:20 [http-nio-8080-exec-1:8048018]-[INFO] user的ID：User{id=23, name='123', pwd='b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:06:20 [http-nio-8080-exec-1:8048018]-[INFO] 名字：123  密码：b 31 4f af 0e 35 92 ba f5 82 15 61 7e 29 7d 68 e
+2019-08-10 14:06:20 [http-nio-8080-exec-1:8048019]-[INFO] 登录信息正确
+2019-08-10 14:06:20 [http-nio-8080-exec-1:8048033]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQxNzI0MCwiaWF0IjoxNTY1NDE3MTgwLCJhZ2UiOjExfQ.PttIXt4FWTsJ3sD9tuwIsgTOFrkewWie72IorBYEVmoToken的长度：159
+2019-08-10 14:06:20 [http-nio-8080-exec-1:8048033]-[INFO] cookie:com.pojo.CookieTool@c345dc5
+2019-08-10 14:19:12 [main:8819442]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 11:52:18 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 14:19:12 [main:8819456]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 14:19:12 [main:8819466]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 14:19:12 [main:8819467]-[INFO] Closing Root WebApplicationContext: startup date [Sat Aug 10 11:52:13 CST 2019]; root of context hierarchy
+2019-08-10 14:19:30 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-10 14:19:31 [RMI TCP Connection(3)-127.0.0.1:309]-[INFO] Refreshing Root WebApplicationContext: startup date [Sat Aug 10 14:19:31 CST 2019]; root of context hierarchy
+2019-08-10 14:19:31 [RMI TCP Connection(3)-127.0.0.1:443]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-10 14:19:33 [RMI TCP Connection(3)-127.0.0.1:2603]-[INFO] Loading properties file from class path resource [mybatis/mysql.properties]
+2019-08-10 14:19:33 [RMI TCP Connection(3)-127.0.0.1:2761]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-10 14:19:34 [RMI TCP Connection(3)-127.0.0.1:3331]-[INFO] Root WebApplicationContext: initialization completed in 3326 ms
+2019-08-10 14:19:34 [RMI TCP Connection(3)-127.0.0.1:4300]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:4361]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:4364]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 14:19:35 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:4365]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:4538]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:4538]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:4539]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:5032]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:5035]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:5035]-[INFO] Mapped "{[/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:5037]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-10 14:19:35 [RMI TCP Connection(3)-127.0.0.1:5038]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-10 14:19:36 [RMI TCP Connection(3)-127.0.0.1:5796]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 14:19:35 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 14:19:36 [RMI TCP Connection(3)-127.0.0.1:5933]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sat Aug 10 14:19:35 CST 2019]; parent: Root WebApplicationContext
+2019-08-10 14:19:36 [RMI TCP Connection(3)-127.0.0.1:6098]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-10 14:19:36 [RMI TCP Connection(3)-127.0.0.1:6121]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-10 14:19:36 [RMI TCP Connection(3)-127.0.0.1:6250]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1889 ms
+2019-08-10 14:19:42 [http-nio-8080-exec-4:11798]-[INFO] user:User{id=null, name='1', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:19:42 [http-nio-8080-exec-4:12228]-[INFO] user的ID：User{id=1, name='1', pwd='1', salt='11111', email='1', createTime=null, updateTime=null}
+2019-08-10 14:19:42 [http-nio-8080-exec-4:12228]-[INFO] 名字：1  密码：1de6de0da0d4dd20df5d09d67dc6d4ddacd2dd63d9ad57d7
+2019-08-10 14:19:42 [http-nio-8080-exec-4:12228]-[INFO] 登录失败
+2019-08-10 14:19:54 [http-nio-8080-exec-7:23490]-[INFO] {"name":"wq","pwd":"12"}
+2019-08-10 14:19:54 [http-nio-8080-exec-7:23499]-[INFO] 加盐后的密码：cd88d29dbcdfbd9cd1dd89db9d3fd14ddede9daddd8da0db加盐后的密码长度：48
+2019-08-10 14:19:54 [http-nio-8080-exec-7:23499]-[INFO] cd88d29dbcdfbd9cd1dd89db9d3fd14ddede9daddd8da0db
+2019-08-10 14:20:11 [http-nio-8080-exec-10:40533]-[INFO] user:User{id=null, name='wq', pwd='12', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:20:11 [http-nio-8080-exec-10:40541]-[INFO] user的ID：User{id=24, name='wq', pwd='cd88d29dbcdfbd9cd1dd89db9d3fd14ddede9daddd8da0db', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:20:11 [http-nio-8080-exec-10:40542]-[INFO] 名字：wq  密码：cd88d29dbcdfbd9cd1dd89db9d3fd14ddede9daddd8da0db
+2019-08-10 14:20:11 [http-nio-8080-exec-10:40542]-[INFO] 登录信息正确
+2019-08-10 14:20:11 [http-nio-8080-exec-10:41146]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQxODA3MSwiaWF0IjoxNTY1NDE4MDExLCJhZ2UiOjExfQ.eCM2bC0zn7jOewzs2AlTNESfxF13sxqcMKesChKkqjUToken的长度：159
+2019-08-10 14:20:11 [http-nio-8080-exec-10:41146]-[INFO] cookie:com.pojo.CookieTool@7f5127e7
+2019-08-10 14:20:27 [http-nio-8080-exec-4:56619]-[INFO] {"name":"额额额额额额额额","pwd":"1"}
+2019-08-10 14:20:27 [http-nio-8080-exec-4:56627]-[INFO] 加盐后的密码：1de6de0da0d4dd20df5d09d67dc6d4ddacd2dd63d9ad57d7加盐后的密码长度：48
+2019-08-10 14:20:27 [http-nio-8080-exec-4:56627]-[INFO] 1de6de0da0d4dd20df5d09d67dc6d4ddacd2dd63d9ad57d7
+2019-08-10 14:29:29 [http-nio-8080-exec-7:598771]-[INFO] {"name":"","pwd":""}
+2019-08-10 14:29:29 [http-nio-8080-exec-7:598781]-[INFO] 加盐后的密码：fd89d91d39ddfd5ed10d59d39d64d31d41d5ed77d0cd6ddd加盐后的密码长度：48
+2019-08-10 14:29:29 [http-nio-8080-exec-7:598781]-[INFO] fd89d91d39ddfd5ed10d59d39d64d31d41d5ed77d0cd6ddd
+2019-08-10 14:33:40 [http-nio-8080-exec-1:849777]-[INFO] user:User{id=null, name='', pwd='', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:33:40 [http-nio-8080-exec-1:849787]-[INFO] user的ID：User{id=26, name='', pwd='fd89d91d39ddfd5ed10d59d39d64d31d41d5ed77d0cd6ddd', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:33:40 [http-nio-8080-exec-1:849787]-[INFO] 名字：  密码：fd89d91d39ddfd5ed10d59d39d64d31d41d5ed77d0cd6ddd
+2019-08-10 14:33:40 [http-nio-8080-exec-1:849788]-[INFO] 登录信息正确
+2019-08-10 14:33:40 [http-nio-8080-exec-1:849805]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQxODg4MCwiaWF0IjoxNTY1NDE4ODIwLCJhZ2UiOjExfQ.yuhXTJEI5_NILsIbUtml4gd0JyrvggebN7qHsVnA1tAToken的长度：159
+2019-08-10 14:33:40 [http-nio-8080-exec-1:849806]-[INFO] cookie:com.pojo.CookieTool@7b60fba6
+2019-08-10 14:34:26 [http-nio-8080-exec-5:896284]-[INFO] user:User{id=null, name='', pwd='1', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:34:26 [http-nio-8080-exec-5:896293]-[INFO] user的ID：User{id=26, name='', pwd='fd89d91d39ddfd5ed10d59d39d64d31d41d5ed77d0cd6ddd', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:34:26 [http-nio-8080-exec-5:896294]-[INFO] 名字：  密码：1de6de0da0d4dd20df5d09d67dc6d4ddacd2dd63d9ad57d7
+2019-08-10 14:34:26 [http-nio-8080-exec-5:896294]-[INFO] 登录失败
+2019-08-10 14:34:34 [http-nio-8080-exec-7:903485]-[INFO] {"name":"","pwd":"23232"}
+2019-08-10 14:34:46 [http-nio-8080-exec-10:915737]-[INFO] user:User{id=null, name='', pwd='', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:34:46 [http-nio-8080-exec-10:915749]-[INFO] user的ID：User{id=26, name='', pwd='fd89d91d39ddfd5ed10d59d39d64d31d41d5ed77d0cd6ddd', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-10 14:34:46 [http-nio-8080-exec-10:915749]-[INFO] 名字：  密码：fd89d91d39ddfd5ed10d59d39d64d31d41d5ed77d0cd6ddd
+2019-08-10 14:34:46 [http-nio-8080-exec-10:915750]-[INFO] 登录信息正确
+2019-08-10 14:34:46 [http-nio-8080-exec-10:915766]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVzdCIsImV4cCI6MTU2NTQxODk0NiwiaWF0IjoxNTY1NDE4ODg2LCJhZ2UiOjExfQ.yNUFwWfkMkNfWfXaQsWYB3fYjy-4x-u0hnoJZcyaHN0Token的长度：159
+2019-08-10 14:34:46 [http-nio-8080-exec-10:915766]-[INFO] cookie:com.pojo.CookieTool@7f1b992b
+2019-08-10 14:39:37 [http-nio-8080-exec-3:1206647]-[INFO] 查询所有信息
+2019-08-10 14:39:37 [http-nio-8080-exec-3:1206671]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@7b4171af, com.pojo.ExcellentStudent@6b778f2a, com.pojo.ExcellentStudent@1e5f47cd, com.pojo.ExcellentStudent@6ac3c0f6]
+2019-08-10 14:39:37 [http-nio-8080-exec-3:1206681]-[INFO] resylt:4

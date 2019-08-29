@@ -1,0 +1,971 @@
+2019-08-25 11:09:01 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:01 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:01 [main:24]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:01 [main:25]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:39 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:39 [main:10]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:39 [main:83]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:39 [main:117]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:57 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:57 [main:6]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:57 [main:25]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:09:57 [main:26]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:11:52 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:11:52 [main:6]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:11:52 [main:27]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:11:52 [main:28]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:12:33 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:12:33 [main:3]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:26:17 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:26:17 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:26:17 [main:12]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:26:17 [main:12]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:26:17 [main:35]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:26:17 [main:35]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:26:51 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:26:51 [main:3]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:27:17 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:27:17 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:27:17 [main:15]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:27:17 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:27:17 [main:30]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:27:17 [main:30]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:28:35 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:28:35 [main:3]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:28:35 [main:12]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:28:35 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:28:35 [main:28]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:28:35 [main:29]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:31:43 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:31:43 [main:6]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:31:43 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:31:43 [main:17]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:31:43 [main:38]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:31:43 [main:39]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:32:51 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:32:51 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:32:51 [main:12]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:32:51 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:35:42 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:35:42 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:35:43 [main:12]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:35:43 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:35:43 [main:23]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:35:43 [main:24]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:55:29 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:55:29 [main:2]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:55:29 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:55:29 [main:14]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:55:29 [main:26]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:55:29 [main:26]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:04 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:04 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:04 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:04 [main:14]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:04 [main:23]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:04 [main:24]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:23 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:23 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:23 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:23 [main:15]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:23 [main:25]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 11:59:23 [main:26]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:07:40 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:07:40 [main:3]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:07:40 [main:11]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:07:40 [main:12]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:07:40 [main:20]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:07:40 [main:20]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:09:23 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:09:23 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:09:23 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:09:23 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:09:23 [main:14]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:09:23 [main:21]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:09:23 [main:22]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:09:23 [main:23]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:19:35 [main:0]-[INFO] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@80ec1f8: startup date [Sun Aug 25 12:19:35 CST 2019]; root of context hierarchy
+2019-08-25 12:19:35 [main:173]-[INFO] Loading XML bean definitions from file [D:\testDe\taskFour\spring-memcached.xml]
+2019-08-25 12:20:53 [main:0]-[INFO] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@343570b7: startup date [Sun Aug 25 12:20:53 CST 2019]; root of context hierarchy
+2019-08-25 12:20:53 [main:323]-[INFO] Loading XML bean definitions from class path resource [spring-memcached.xml]
+2019-08-25 12:21:00 [main:0]-[INFO] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@80ec1f8: startup date [Sun Aug 25 12:21:00 CST 2019]; root of context hierarchy
+2019-08-25 12:21:00 [main:107]-[INFO] Loading XML bean definitions from class path resource [spring-memcached.xml]
+2019-08-25 12:21:58 [main:0]-[INFO] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@80ec1f8: startup date [Sun Aug 25 12:21:58 CST 2019]; root of context hierarchy
+2019-08-25 12:21:58 [main:101]-[INFO] Loading XML bean definitions from class path resource [spring-memcached.xml]
+2019-08-25 12:24:14 [main:0]-[INFO] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@80ec1f8: startup date [Sun Aug 25 12:24:14 CST 2019]; root of context hierarchy
+2019-08-25 12:24:14 [main:115]-[INFO] Loading XML bean definitions from class path resource [spring-memcached.xml]
+2019-08-25 12:29:26 [main:0]-[INFO] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@25359ed8: startup date [Sun Aug 25 12:29:26 CST 2019]; root of context hierarchy
+2019-08-25 12:29:26 [main:109]-[INFO] Loading XML bean definitions from class path resource [spring-memcached.xml]
+2019-08-25 12:29:54 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:29:55 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:29:55 [main:14]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:29:55 [main:15]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:29:55 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:29:55 [main:28]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:29:55 [main:30]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:29:55 [main:31]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:30:26 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:30:26 [main:3]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:30:26 [main:11]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:30:26 [main:12]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:30:26 [main:13]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:30:26 [main:21]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:30:26 [main:22]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:30:26 [main:24]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:04 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:04 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:04 [main:14]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:04 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:04 [main:17]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:04 [main:29]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:04 [main:30]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:04 [main:31]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:59 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:59 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:59 [main:14]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:59 [main:14]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:59 [main:15]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:59 [main:22]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:59 [main:23]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:32:59 [main:23]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:37:31 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:37:31 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:37:31 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:37:31 [main:15]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:37:31 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:37:31 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:43:16 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:43:16 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:43:16 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:43:16 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:43:16 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:43:16 [main:17]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:44:04 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:44:04 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:44:04 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:44:55 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:44:55 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:44:55 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:46:08 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:46:08 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:46:08 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:46:33 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:46:33 [main:3]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:46:33 [main:3]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:49:52 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:49:52 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:49:52 [main:6]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:49:52 [main:15]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:49:52 [main:15]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:49:52 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:52:42 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:52:42 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:52:42 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:53:29 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:53:29 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:53:29 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:53:41 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:53:41 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 12:53:41 [main:4]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:41 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:41 [main:6]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:41 [main:7]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:41 [main:16]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:41 [main:17]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:41 [main:17]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:56 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:56 [main:5]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:56 [main:6]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:56 [main:18]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:56 [main:19]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:25:56 [main:20]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:26:35 [main:0]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:26:35 [main:7]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:26:35 [main:10]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:26:35 [main:52]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:26:35 [main:105]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:26:35 [main:107]-[ERROR] attempting to get SockIO from uninitialized pool!
+2019-08-25 14:59:43 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 14:59:43 [RMI TCP Connection(3)-127.0.0.1:170]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 14:59:43 CST 2019]; root of context hierarchy
+2019-08-25 14:59:43 [RMI TCP Connection(3)-127.0.0.1:358]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 14:59:45 [RMI TCP Connection(3)-127.0.0.1:2698]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-25 14:59:46 [RMI TCP Connection(3)-127.0.0.1:3231]-[INFO] Root WebApplicationContext: initialization completed in 3221 ms
+2019-08-25 14:59:47 [RMI TCP Connection(3)-127.0.0.1:4334]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 14:59:47 [RMI TCP Connection(3)-127.0.0.1:4415]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-25 14:59:47 [RMI TCP Connection(3)-127.0.0.1:4419]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 14:59:47 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 14:59:47 [RMI TCP Connection(3)-127.0.0.1:4419]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-25 14:59:47 [RMI TCP Connection(3)-127.0.0.1:4684]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 14:59:47 [RMI TCP Connection(3)-127.0.0.1:4685]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 14:59:47 [RMI TCP Connection(3)-127.0.0.1:4685]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 14:59:48 [RMI TCP Connection(3)-127.0.0.1:5390]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-25 14:59:48 [RMI TCP Connection(3)-127.0.0.1:5393]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-25 14:59:48 [RMI TCP Connection(3)-127.0.0.1:5395]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-25 14:59:48 [RMI TCP Connection(3)-127.0.0.1:5396]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-25 14:59:48 [RMI TCP Connection(3)-127.0.0.1:5398]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-25 14:59:48 [RMI TCP Connection(3)-127.0.0.1:5400]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-25 14:59:49 [RMI TCP Connection(3)-127.0.0.1:6172]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 14:59:47 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 14:59:49 [RMI TCP Connection(3)-127.0.0.1:6299]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 14:59:47 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 14:59:49 [RMI TCP Connection(3)-127.0.0.1:6484]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 14:59:49 [RMI TCP Connection(3)-127.0.0.1:6514]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-25 14:59:49 [RMI TCP Connection(3)-127.0.0.1:6664]-[INFO] FrameworkServlet 'springMVC': initialization completed in 2248 ms
+2019-08-25 14:59:55 [http-nio-8080-exec-4:11885]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 14:59:55 [http-nio-8080-exec-4:12403]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 14:59:55 [http-nio-8080-exec-4:12403]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 14:59:55 [http-nio-8080-exec-4:12403]-[INFO] 登录信息正确
+2019-08-25 14:59:56 [http-nio-8080-exec-4:12971]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMDgzOTUsInVzZXJuYW1lIjoiMjIyIn0.sQyyBO2J8Qol3ywiAgK5ilOpZciyuLcBzyq5WWgjvJgToken的长度：160
+2019-08-25 14:59:56 [http-nio-8080-exec-4:12971]-[INFO] cookie:javax.servlet.http.Cookie@4ea8ab68
+2019-08-25 15:00:02 [http-nio-8080-exec-7:19119]-[INFO] 查询所有信息
+2019-08-25 15:00:02 [http-nio-8080-exec-7:19130]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@1ecf736b, com.pojo.ExcellentStudent@5bcdeed6, com.pojo.ExcellentStudent@7796c274, com.pojo.ExcellentStudent@6a5c97e7]
+2019-08-25 15:00:02 [http-nio-8080-exec-7:19140]-[INFO] resylt:4
+2019-08-25 15:01:08 [Catalina-utility-2:84837]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 14:59:47 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 15:01:08 [Catalina-utility-2:84839]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 15:01:08 [Catalina-utility-2:84846]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 15:01:08 [Catalina-utility-2:84846]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 14:59:43 CST 2019]; root of context hierarchy
+2019-08-25 17:04:49 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e38921c: startup date [Sun Aug 25 17:04:49 CST 2019]; root of context hierarchy
+2019-08-25 17:04:49 [main:144]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 17:06:01 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@49070868: startup date [Sun Aug 25 17:06:01 CST 2019]; root of context hierarchy
+2019-08-25 17:06:01 [main:104]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 17:12:48 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@49070868: startup date [Sun Aug 25 17:12:48 CST 2019]; root of context hierarchy
+2019-08-25 17:12:48 [main:112]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 17:13:53 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@49070868: startup date [Sun Aug 25 17:13:53 CST 2019]; root of context hierarchy
+2019-08-25 17:13:53 [main:168]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 17:14:49 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@49070868: startup date [Sun Aug 25 17:14:49 CST 2019]; root of context hierarchy
+2019-08-25 17:14:49 [main:142]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 17:15:39 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@49070868: startup date [Sun Aug 25 17:15:39 CST 2019]; root of context hierarchy
+2019-08-25 17:15:39 [main:125]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 17:19:22 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@80ec1f8: startup date [Sun Aug 25 17:19:22 CST 2019]; root of context hierarchy
+2019-08-25 17:19:22 [main:114]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 17:19:38 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@80ec1f8: startup date [Sun Aug 25 17:19:38 CST 2019]; root of context hierarchy
+2019-08-25 17:19:38 [main:109]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 17:45:11 [main:0]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1445d7f: startup date [Sun Aug 25 17:45:11 CST 2019]; root of context hierarchy
+2019-08-25 17:45:11 [main:107]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 18:37:57 [main:1]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5606c0b: startup date [Sun Aug 25 18:37:57 CST 2019]; root of context hierarchy
+2019-08-25 18:37:57 [main:296]-[INFO] Loading XML bean definitions from class path resource [spring/spring-memcached.xml]
+2019-08-25 18:37:58 [main:748]-[ERROR] ++++ trying to initialize with no servers
+2019-08-25 19:12:18 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 19:12:18 [RMI TCP Connection(3)-127.0.0.1:100]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 19:12:18 CST 2019]; root of context hierarchy
+2019-08-25 19:12:19 [RMI TCP Connection(3)-127.0.0.1:243]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 19:12:19 [RMI TCP Connection(3)-127.0.0.1:376]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:12:20 [RMI TCP Connection(3)-127.0.0.1:2041]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:12:21 [RMI TCP Connection(3)-127.0.0.1:2716]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-25 19:12:22 [RMI TCP Connection(3)-127.0.0.1:3318]-[INFO] Root WebApplicationContext: initialization completed in 3315 ms
+2019-08-25 19:12:23 [RMI TCP Connection(3)-127.0.0.1:4494]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:12:23 [RMI TCP Connection(3)-127.0.0.1:4594]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-25 19:12:23 [RMI TCP Connection(3)-127.0.0.1:4600]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:12:23 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:12:23 [RMI TCP Connection(3)-127.0.0.1:4600]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-25 19:12:23 [RMI TCP Connection(3)-127.0.0.1:4929]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:12:23 [RMI TCP Connection(3)-127.0.0.1:4931]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:12:23 [RMI TCP Connection(3)-127.0.0.1:4931]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:12:24 [RMI TCP Connection(3)-127.0.0.1:5606]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-25 19:12:24 [RMI TCP Connection(3)-127.0.0.1:5608]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-25 19:12:24 [RMI TCP Connection(3)-127.0.0.1:5609]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-25 19:12:24 [RMI TCP Connection(3)-127.0.0.1:5610]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-25 19:12:24 [RMI TCP Connection(3)-127.0.0.1:5611]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-25 19:12:24 [RMI TCP Connection(3)-127.0.0.1:5611]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-25 19:12:24 [RMI TCP Connection(3)-127.0.0.1:6169]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:12:23 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:12:25 [RMI TCP Connection(3)-127.0.0.1:6255]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:12:23 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:12:25 [RMI TCP Connection(3)-127.0.0.1:6377]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:12:25 [RMI TCP Connection(3)-127.0.0.1:6396]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-25 19:12:25 [RMI TCP Connection(3)-127.0.0.1:6509]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1914 ms
+2019-08-25 19:12:29 [http-nio-8080-exec-5:10970]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:12:30 [http-nio-8080-exec-5:11519]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:12:30 [http-nio-8080-exec-5:11519]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 19:12:30 [http-nio-8080-exec-5:11519]-[INFO] 登录信息正确
+2019-08-25 19:12:30 [http-nio-8080-exec-5:12142]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMjM1NTAsInVzZXJuYW1lIjoiMjIyIn0.cEfdQwtdNJjGVxJomjBpu_UazJJyIpm0-DTBK0YBJ50Token的长度：160
+2019-08-25 19:12:30 [http-nio-8080-exec-5:12143]-[INFO] cookie:javax.servlet.http.Cookie@dfb1437
+2019-08-25 19:12:32 [http-nio-8080-exec-6:13993]-[INFO] 查询所有信息
+2019-08-25 19:12:32 [http-nio-8080-exec-6:14012]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@299e4bdd, com.pojo.ExcellentStudent@36ebe215, com.pojo.ExcellentStudent@51b9d36c, com.pojo.ExcellentStudent@6709db49]
+2019-08-25 19:12:32 [http-nio-8080-exec-6:14026]-[INFO] resylt:4
+2019-08-25 19:13:15 [main:56382]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:12:23 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:13:15 [main:56384]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:13:15 [main:56390]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:13:15 [main:56391]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 19:12:18 CST 2019]; root of context hierarchy
+2019-08-25 19:13:35 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 19:13:35 [RMI TCP Connection(3)-127.0.0.1:105]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 19:13:35 CST 2019]; root of context hierarchy
+2019-08-25 19:13:36 [RMI TCP Connection(3)-127.0.0.1:303]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 19:13:36 [RMI TCP Connection(3)-127.0.0.1:437]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:13:37 [RMI TCP Connection(3)-127.0.0.1:2052]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:13:38 [RMI TCP Connection(3)-127.0.0.1:2735]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-25 19:13:39 [RMI TCP Connection(3)-127.0.0.1:3404]-[INFO] Root WebApplicationContext: initialization completed in 3401 ms
+2019-08-25 19:13:40 [RMI TCP Connection(3)-127.0.0.1:4503]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:13:40 [RMI TCP Connection(3)-127.0.0.1:4590]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-25 19:13:40 [RMI TCP Connection(3)-127.0.0.1:4599]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:13:40 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:13:40 [RMI TCP Connection(3)-127.0.0.1:4600]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-25 19:13:40 [RMI TCP Connection(3)-127.0.0.1:4788]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:13:40 [RMI TCP Connection(3)-127.0.0.1:4788]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:13:40 [RMI TCP Connection(3)-127.0.0.1:4789]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:5346]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:5349]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:5352]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:5354]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:5356]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:5357]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:5912]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:13:40 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:6005]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:13:40 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:6141]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:13:41 [RMI TCP Connection(3)-127.0.0.1:6161]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-25 19:13:42 [RMI TCP Connection(3)-127.0.0.1:6273]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1683 ms
+2019-08-25 19:13:46 [http-nio-8080-exec-4:10608]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:13:47 [http-nio-8080-exec-4:11355]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:13:47 [http-nio-8080-exec-4:11356]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 19:13:47 [http-nio-8080-exec-4:11356]-[INFO] 登录信息正确
+2019-08-25 19:13:47 [http-nio-8080-exec-4:12010]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMjM2MjcsInVzZXJuYW1lIjoiMjIyIn0.lZau_z4qx08EKDco0ZmQLdJCf4zfADmF0v668NCLjkIToken的长度：160
+2019-08-25 19:13:47 [http-nio-8080-exec-4:12010]-[INFO] cookie:javax.servlet.http.Cookie@3d6bd45b
+2019-08-25 19:14:58 [main:82329]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:13:40 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:14:58 [main:82330]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:14:58 [main:82335]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:14:58 [main:82336]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 19:13:35 CST 2019]; root of context hierarchy
+2019-08-25 19:15:19 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 19:15:19 [RMI TCP Connection(3)-127.0.0.1:106]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 19:15:19 CST 2019]; root of context hierarchy
+2019-08-25 19:15:19 [RMI TCP Connection(3)-127.0.0.1:244]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 19:15:19 [RMI TCP Connection(3)-127.0.0.1:392]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:15:21 [RMI TCP Connection(3)-127.0.0.1:2053]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:15:21 [RMI TCP Connection(3)-127.0.0.1:2706]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-25 19:15:22 [RMI TCP Connection(3)-127.0.0.1:3266]-[INFO] Root WebApplicationContext: initialization completed in 3262 ms
+2019-08-25 19:15:23 [RMI TCP Connection(3)-127.0.0.1:4301]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:15:23 [RMI TCP Connection(3)-127.0.0.1:4388]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-25 19:15:23 [RMI TCP Connection(3)-127.0.0.1:4393]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:15:23 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:15:23 [RMI TCP Connection(3)-127.0.0.1:4394]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-25 19:15:23 [RMI TCP Connection(3)-127.0.0.1:4606]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:15:23 [RMI TCP Connection(3)-127.0.0.1:4606]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:15:23 [RMI TCP Connection(3)-127.0.0.1:4607]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:15:24 [RMI TCP Connection(3)-127.0.0.1:5226]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-25 19:15:24 [RMI TCP Connection(3)-127.0.0.1:5229]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-25 19:15:24 [RMI TCP Connection(3)-127.0.0.1:5231]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-25 19:15:24 [RMI TCP Connection(3)-127.0.0.1:5232]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-25 19:15:24 [RMI TCP Connection(3)-127.0.0.1:5233]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-25 19:15:24 [RMI TCP Connection(3)-127.0.0.1:5234]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-25 19:15:25 [RMI TCP Connection(3)-127.0.0.1:5852]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:15:23 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:15:25 [RMI TCP Connection(3)-127.0.0.1:5943]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:15:23 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:15:25 [RMI TCP Connection(3)-127.0.0.1:6080]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:15:25 [RMI TCP Connection(3)-127.0.0.1:6100]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-25 19:15:25 [RMI TCP Connection(3)-127.0.0.1:6217]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1829 ms
+2019-08-25 19:15:33 [http-nio-8080-exec-4:14720]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:15:34 [http-nio-8080-exec-4:15236]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:15:34 [http-nio-8080-exec-4:15236]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 19:15:34 [http-nio-8080-exec-4:15236]-[INFO] 登录信息正确
+2019-08-25 19:15:35 [http-nio-8080-exec-4:15787]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMjM3MzQsInVzZXJuYW1lIjoiMjIyIn0.HCQ8mZTrAiu3Fi9J6V7l7ZjlUp8VwAk7LOUmRzpAqSQToken的长度：160
+2019-08-25 19:15:35 [http-nio-8080-exec-4:15787]-[INFO] cookie:javax.servlet.http.Cookie@178c039b
+2019-08-25 19:16:02 [http-nio-8080-exec-7:43007]-[INFO] user:User{id=null, name='222', pwd='w', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:16:02 [http-nio-8080-exec-7:43018]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:16:02 [http-nio-8080-exec-7:43018]-[INFO] 名字：222  密码：ad30d5fd0bd10dffd5ed44d3dde7d2bd47ddbda1d80d57d2
+2019-08-25 19:16:02 [http-nio-8080-exec-7:43019]-[INFO] 登录失败
+2019-08-25 19:16:44 [Catalina-utility-1:84930]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:15:23 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:16:44 [Catalina-utility-1:84932]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:16:44 [Catalina-utility-1:84939]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:16:44 [Catalina-utility-1:84939]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 19:15:19 CST 2019]; root of context hierarchy
+2019-08-25 19:17:12 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 19:17:12 [RMI TCP Connection(3)-127.0.0.1:111]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 19:17:12 CST 2019]; root of context hierarchy
+2019-08-25 19:17:12 [RMI TCP Connection(3)-127.0.0.1:319]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 19:17:13 [RMI TCP Connection(3)-127.0.0.1:449]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:17:14 [RMI TCP Connection(3)-127.0.0.1:2259]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:17:15 [RMI TCP Connection(3)-127.0.0.1:2888]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-25 19:17:16 [RMI TCP Connection(3)-127.0.0.1:3457]-[INFO] Root WebApplicationContext: initialization completed in 3453 ms
+2019-08-25 19:17:17 [RMI TCP Connection(3)-127.0.0.1:4530]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:17:17 [RMI TCP Connection(3)-127.0.0.1:4594]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-25 19:17:17 [RMI TCP Connection(3)-127.0.0.1:4598]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:17:17 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:17:17 [RMI TCP Connection(3)-127.0.0.1:4599]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-25 19:17:17 [RMI TCP Connection(3)-127.0.0.1:4830]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:17:17 [RMI TCP Connection(3)-127.0.0.1:4831]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:17:17 [RMI TCP Connection(3)-127.0.0.1:4832]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:17:18 [RMI TCP Connection(3)-127.0.0.1:5427]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-25 19:17:18 [RMI TCP Connection(3)-127.0.0.1:5429]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-25 19:17:18 [RMI TCP Connection(3)-127.0.0.1:5431]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-25 19:17:18 [RMI TCP Connection(3)-127.0.0.1:5432]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-25 19:17:18 [RMI TCP Connection(3)-127.0.0.1:5433]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-25 19:17:18 [RMI TCP Connection(3)-127.0.0.1:5434]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-25 19:17:18 [RMI TCP Connection(3)-127.0.0.1:6221]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:17:17 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:17:19 [RMI TCP Connection(3)-127.0.0.1:6328]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:17:17 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:17:19 [RMI TCP Connection(3)-127.0.0.1:6508]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:17:19 [RMI TCP Connection(3)-127.0.0.1:6535]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-25 19:17:19 [RMI TCP Connection(3)-127.0.0.1:6665]-[INFO] FrameworkServlet 'springMVC': initialization completed in 2071 ms
+2019-08-25 19:17:29 [http-nio-8080-exec-4:17183]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:17:30 [http-nio-8080-exec-4:17811]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:17:30 [http-nio-8080-exec-4:17816]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 19:17:30 [http-nio-8080-exec-4:17817]-[INFO] 登录信息正确
+2019-08-25 19:17:31 [http-nio-8080-exec-4:18452]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMjM4NTAsInVzZXJuYW1lIjoiMjIyIn0.wuL-jLEIayZNbFSJOPimlsga4Uwa2THGq9JFZ5lPuRsToken的长度：160
+2019-08-25 19:17:31 [http-nio-8080-exec-4:18453]-[INFO] cookie:javax.servlet.http.Cookie@351b25e8
+2019-08-25 19:22:14 [main:301734]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:17:17 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:22:14 [main:301736]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:22:14 [main:301741]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:22:14 [main:301741]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 19:17:12 CST 2019]; root of context hierarchy
+2019-08-25 19:22:35 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 19:22:35 [RMI TCP Connection(3)-127.0.0.1:109]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 19:22:35 CST 2019]; root of context hierarchy
+2019-08-25 19:22:35 [RMI TCP Connection(3)-127.0.0.1:300]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 19:22:35 [RMI TCP Connection(3)-127.0.0.1:466]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:22:37 [RMI TCP Connection(3)-127.0.0.1:2240]-[INFO] Loading XML bean definitions from class path resource [spring/memcached-context.xml]
+2019-08-25 19:22:38 [RMI TCP Connection(3)-127.0.0.1:2815]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-25 19:22:38 [RMI TCP Connection(3)-127.0.0.1:3397]-[INFO] Root WebApplicationContext: initialization completed in 3394 ms
+2019-08-25 19:22:39 [RMI TCP Connection(3)-127.0.0.1:4493]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:22:39 [RMI TCP Connection(3)-127.0.0.1:4565]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-25 19:22:39 [RMI TCP Connection(3)-127.0.0.1:4573]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:22:39 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:22:39 [RMI TCP Connection(3)-127.0.0.1:4574]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:4779]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:4780]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:4780]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:5340]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:5343]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:5345]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:5346]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:5347]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-25 19:22:40 [RMI TCP Connection(3)-127.0.0.1:5348]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-25 19:22:41 [RMI TCP Connection(3)-127.0.0.1:6110]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:22:39 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:22:41 [RMI TCP Connection(3)-127.0.0.1:6224]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:22:39 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:22:41 [RMI TCP Connection(3)-127.0.0.1:6384]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:22:41 [RMI TCP Connection(3)-127.0.0.1:6411]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-25 19:22:41 [RMI TCP Connection(3)-127.0.0.1:6537]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1972 ms
+2019-08-25 19:22:57 [http-nio-8080-exec-6:22031]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:22:57 [http-nio-8080-exec-6:22458]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 19:22:57 [http-nio-8080-exec-6:22458]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 19:22:57 [http-nio-8080-exec-6:22458]-[INFO] 登录信息正确
+2019-08-25 19:22:58 [http-nio-8080-exec-6:22992]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMjQxNzcsInVzZXJuYW1lIjoiMjIyIn0.CYANPCuMR9li6YncqwyE5oC9xpYVgbNdKRwWY1NmZ2wToken的长度：160
+2019-08-25 19:22:58 [http-nio-8080-exec-6:22993]-[INFO] cookie:javax.servlet.http.Cookie@2a2a03f3
+2019-08-25 19:37:41 [Catalina-utility-2:905713]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 19:22:39 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 19:37:41 [Catalina-utility-2:905716]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 19:37:41 [Catalina-utility-2:905726]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:37:41 [Catalina-utility-2:905727]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 19:22:35 CST 2019]; root of context hierarchy
+2019-08-25 19:39:26 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 19:39:26 [RMI TCP Connection(3)-127.0.0.1:189]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 19:39:26 CST 2019]; root of context hierarchy
+2019-08-25 19:39:27 [RMI TCP Connection(3)-127.0.0.1:403]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 19:39:27 [RMI TCP Connection(3)-127.0.0.1:552]-[INFO] Loading XML bean definitions from class path resource [spring/app-cache.xml]
+2019-08-25 19:39:27 [RMI TCP Connection(3)-127.0.0.1:571]-[ERROR] Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from relative location [app-cache.xml]
+Offending resource: class path resource [spring/spring-mybatis.xml]; nested exception is org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 2 in XML document from class path resource [spring/app-cache.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 76; cvc-elt.1: 找不到元素 'bean' 的声明。
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:118)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:103)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:259)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:184)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:169)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:142)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:94)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:514)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4682)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5143)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:289)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:457)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:289)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.sun.jmx.remote.security.MBeanServerAccessController.invoke(MBeanServerAccessController.java:468)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1408)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 2 in XML document from class path resource [spring/app-cache.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 76; cvc-elt.1: 找不到元素 'bean' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:243)
+	... 66 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 76; cvc-elt.1: 找不到元素 'bean' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1901)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:741)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 69 more
+2019-08-25 19:39:28 [RMI TCP Connection(3)-127.0.0.1:1702]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:39:28 [RMI TCP Connection(3)-127.0.0.1:1710]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 19:39:28 [RMI TCP Connection(3)-127.0.0.1:1711]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 19:39:26 CST 2019]; root of context hierarchy
+2019-08-25 20:05:53 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 20:05:53 [RMI TCP Connection(3)-127.0.0.1:111]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 20:05:53 CST 2019]; root of context hierarchy
+2019-08-25 20:05:54 [RMI TCP Connection(3)-127.0.0.1:301]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 20:05:55 [RMI TCP Connection(3)-127.0.0.1:2072]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 20:05:55 [RMI TCP Connection(3)-127.0.0.1:2092]-[ERROR] Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from relative location [app-context-xmemcached.xml]
+Offending resource: class path resource [spring/spring-mybatis.xml]; nested exception is org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 9 in XML document from class path resource [spring/app-context-xmemcached.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 9; columnNumber: 73; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:70)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:118)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:103)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:259)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:184)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:169)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:142)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:94)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:514)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4682)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5143)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1728)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:289)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:457)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:289)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.sun.jmx.remote.security.MBeanServerAccessController.invoke(MBeanServerAccessController.java:468)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1408)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 9 in XML document from class path resource [spring/app-context-xmemcached.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 9; columnNumber: 73; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:243)
+	... 66 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 9; columnNumber: 73; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1901)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:741)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 69 more
+2019-08-25 20:05:57 [RMI TCP Connection(3)-127.0.0.1:3349]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 20:05:57 [RMI TCP Connection(3)-127.0.0.1:3357]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 20:05:57 [RMI TCP Connection(3)-127.0.0.1:3357]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 20:05:53 CST 2019]; root of context hierarchy
+2019-08-25 20:13:10 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 20:13:10 [RMI TCP Connection(3)-127.0.0.1:107]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 20:13:10 CST 2019]; root of context hierarchy
+2019-08-25 20:13:10 [RMI TCP Connection(3)-127.0.0.1:332]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 20:13:12 [RMI TCP Connection(3)-127.0.0.1:2284]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 20:13:13 [RMI TCP Connection(3)-127.0.0.1:3276]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-25 20:13:14 [RMI TCP Connection(3)-127.0.0.1:4055]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 20:13:14 [RMI TCP Connection(3)-127.0.0.1:4123]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 20:13:14 [RMI TCP Connection(3)-127.0.0.1:4129]-[INFO] Creating 8 reactors...
+2019-08-25 20:13:14 [RMI TCP Connection(3)-127.0.0.1:4150]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 20:13:14 [Xmemcached-Reactor-0:4173]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 20:13:14 [RMI TCP Connection(3)-127.0.0.1:4316]-[INFO] Root WebApplicationContext: initialization completed in 4305 ms
+2019-08-25 20:13:15 [RMI TCP Connection(3)-127.0.0.1:5298]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:5363]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:5367]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 20:13:16 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:5368]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:5609]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:5611]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:5612]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:6201]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:6203]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:6204]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:6205]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:6206]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-25 20:13:16 [RMI TCP Connection(3)-127.0.0.1:6206]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-25 20:13:17 [RMI TCP Connection(3)-127.0.0.1:6660]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 20:13:16 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 20:13:17 [RMI TCP Connection(3)-127.0.0.1:6746]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 20:13:16 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 20:13:17 [RMI TCP Connection(3)-127.0.0.1:6852]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 20:13:17 [RMI TCP Connection(3)-127.0.0.1:6872]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-25 20:13:17 [RMI TCP Connection(3)-127.0.0.1:6995]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1632 ms
+2019-08-25 20:13:22 [http-nio-8080-exec-4:12095]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 20:13:23 [http-nio-8080-exec-4:12618]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 20:13:23 [http-nio-8080-exec-4:12618]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 20:13:23 [http-nio-8080-exec-4:12619]-[INFO] 登录信息正确
+2019-08-25 20:13:23 [http-nio-8080-exec-4:13271]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMjcyMDMsInVzZXJuYW1lIjoiMjIyIn0.D5ZSjg0YZQnBj5acNOFJr8QyYDIi4GW4c3RBeO6IweIToken的长度：160
+2019-08-25 20:13:23 [http-nio-8080-exec-4:13271]-[INFO] cookie:javax.servlet.http.Cookie@308ad3c6
+2019-08-25 20:13:25 [http-nio-8080-exec-5:14707]-[INFO] 查询所有信息
+2019-08-25 20:13:25 [http-nio-8080-exec-5:14720]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@7c5aacbe, com.pojo.ExcellentStudent@3a4dfe2b, com.pojo.ExcellentStudent@4719a1f, com.pojo.ExcellentStudent@6ba36966]
+2019-08-25 20:13:25 [http-nio-8080-exec-5:14731]-[INFO] resylt:4
+2019-08-25 20:23:29 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 20:23:29 [main:41]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 20:23:29 [main:176]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 20:23:29 [main:407]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 20:23:29 CST 2019]; root of context hierarchy
+2019-08-25 20:23:30 [main:724]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 20:23:30 [main:797]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 20:23:30 [main:802]-[INFO] Creating 8 reactors...
+2019-08-25 20:23:31 [main:1791]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 20:23:31 [Xmemcached-Reactor-0:1841]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 20:23:31 [main:2010]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 20:23:31 CST 2019]; root of context hierarchy
+2019-08-25 20:23:31 [main:2013]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 20:23:31 [main:2166]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 20:23:31 [main:2167]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 20:23:31 [main:2169]-[INFO] Creating 8 reactors...
+2019-08-25 20:23:31 [main:2189]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 20:23:31 [Xmemcached-Reactor-0:2192]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 20:23:31 [Thread-11:2243]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 20:23:29 CST 2019]; root of context hierarchy
+2019-08-25 20:23:31 [Thread-9:2297]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 20:23:31 [Thread-9:2300]-[INFO] Controller has been stopped.
+2019-08-25 20:23:31 [Thread-21:2306]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 20:23:31 [Thread-21:2309]-[INFO] Controller has been stopped.
+2019-08-25 20:25:07 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 20:25:07 [main:35]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 20:25:07 [main:215]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 20:25:07 [main:479]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 20:25:07 CST 2019]; root of context hierarchy
+2019-08-25 20:25:08 [main:813]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 20:25:08 [main:867]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 20:25:08 [main:869]-[INFO] Creating 8 reactors...
+2019-08-25 20:25:09 [main:2000]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 20:25:09 [Xmemcached-Reactor-0:2039]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 20:25:09 [main:2186]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 20:25:09 CST 2019]; root of context hierarchy
+2019-08-25 20:25:09 [main:2191]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 20:25:09 [main:2335]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 20:25:09 [main:2335]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 20:25:09 [main:2342]-[INFO] Creating 8 reactors...
+2019-08-25 20:25:09 [main:2367]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 20:25:09 [Xmemcached-Reactor-0:2379]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 20:25:09 [Thread-11:2435]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 20:25:07 CST 2019]; root of context hierarchy
+2019-08-25 20:25:09 [Thread-21:2460]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 20:25:09 [Thread-9:2472]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 20:25:09 [Thread-9:2481]-[INFO] Controller has been stopped.
+2019-08-25 20:25:09 [Thread-21:2514]-[INFO] Controller has been stopped.
+2019-08-25 21:16:09 [main:3778975]-[INFO] Closing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 20:13:16 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 21:16:09 [main:3778981]-[INFO] Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 21:16:09 [main:3778986]-[INFO] Removing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 21:16:09 [main:3778987]-[INFO] Closing Root WebApplicationContext: startup date [Sun Aug 25 20:13:10 CST 2019]; root of context hierarchy
+2019-08-25 21:16:09 [main:3779034]-[INFO] Controller has been stopped.
+2019-08-25 21:16:09 [Xmemcached-Reactor-2:3779037]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:16:32 [RMI TCP Connection(3)-127.0.0.1:0]-[INFO] Root WebApplicationContext: initialization started
+2019-08-25 21:16:32 [RMI TCP Connection(3)-127.0.0.1:166]-[INFO] Refreshing Root WebApplicationContext: startup date [Sun Aug 25 21:16:32 CST 2019]; root of context hierarchy
+2019-08-25 21:16:32 [RMI TCP Connection(3)-127.0.0.1:376]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+2019-08-25 21:16:34 [RMI TCP Connection(3)-127.0.0.1:2408]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:16:35 [RMI TCP Connection(3)-127.0.0.1:3080]-[INFO] Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+2019-08-25 21:16:36 [RMI TCP Connection(3)-127.0.0.1:3893]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:16:36 [RMI TCP Connection(3)-127.0.0.1:3963]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:16:36 [RMI TCP Connection(3)-127.0.0.1:3968]-[INFO] Creating 8 reactors...
+2019-08-25 21:16:36 [RMI TCP Connection(3)-127.0.0.1:3993]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:16:36 [Xmemcached-Reactor-0:4018]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:16:36 [RMI TCP Connection(3)-127.0.0.1:4142]-[INFO] Root WebApplicationContext: initialization completed in 4136 ms
+2019-08-25 21:16:37 [RMI TCP Connection(3)-127.0.0.1:5247]-[INFO] Publishing TilesContext for context: org.apache.tiles.request.servlet.wildcard.WildcardServletApplicationContext
+2019-08-25 21:16:37 [RMI TCP Connection(3)-127.0.0.1:5324]-[INFO] FrameworkServlet 'springMVC': initialization started
+2019-08-25 21:16:37 [RMI TCP Connection(3)-127.0.0.1:5328]-[INFO] Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 21:16:37 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 21:16:37 [RMI TCP Connection(3)-127.0.0.1:5328]-[INFO] Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+2019-08-25 21:16:37 [RMI TCP Connection(3)-127.0.0.1:5545]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 21:16:37 [RMI TCP Connection(3)-127.0.0.1:5548]-[INFO] Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 21:16:37 [RMI TCP Connection(3)-127.0.0.1:5549]-[INFO] Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2019-08-25 21:16:38 [RMI TCP Connection(3)-127.0.0.1:6174]-[INFO] Mapped "{[/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.insert(com.pojo.User)
+2019-08-25 21:16:38 [RMI TCP Connection(3)-127.0.0.1:6176]-[INFO] Mapped "{[/home],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.select()
+2019-08-25 21:16:38 [RMI TCP Connection(3)-127.0.0.1:6177]-[INFO] Mapped "{[/u/profession],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.ps()
+2019-08-25 21:16:38 [RMI TCP Connection(3)-127.0.0.1:6178]-[INFO] Mapped "{[/add]}" onto public java.lang.String com.controller.UserHandler.insertAll()
+2019-08-25 21:16:38 [RMI TCP Connection(3)-127.0.0.1:6179]-[INFO] Mapped "{[/login],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.controller.UserHandler.Login(com.pojo.User,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2019-08-25 21:16:38 [RMI TCP Connection(3)-127.0.0.1:6179]-[INFO] Mapped "{[/signout]}" onto public void com.controller.UserHandler.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-25 21:16:38 [RMI TCP Connection(3)-127.0.0.1:6739]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 21:16:37 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 21:16:38 [RMI TCP Connection(3)-127.0.0.1:6854]-[INFO] Looking for @ControllerAdvice: WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Aug 25 21:16:37 CST 2019]; parent: Root WebApplicationContext
+2019-08-25 21:16:39 [RMI TCP Connection(3)-127.0.0.1:6984]-[INFO] Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2019-08-25 21:16:39 [RMI TCP Connection(3)-127.0.0.1:7005]-[INFO] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-08-25 21:16:39 [RMI TCP Connection(3)-127.0.0.1:7137]-[INFO] FrameworkServlet 'springMVC': initialization completed in 1813 ms
+2019-08-25 21:16:42 [http-nio-8080-exec-4:10406]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 21:16:43 [http-nio-8080-exec-4:10911]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 21:16:43 [http-nio-8080-exec-4:10911]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 21:16:43 [http-nio-8080-exec-4:10911]-[INFO] 登录信息正确
+2019-08-25 21:16:43 [http-nio-8080-exec-4:11589]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMzEwMDMsInVzZXJuYW1lIjoiMjIyIn0.IBRm0zQGNiJO8b2LNjnFUtbGwysVBoKu1EAMOHF-FxQToken的长度：160
+2019-08-25 21:16:43 [http-nio-8080-exec-4:11590]-[INFO] cookie:javax.servlet.http.Cookie@50c931d5
+2019-08-25 21:16:45 [http-nio-8080-exec-5:13214]-[INFO] 查询所有信息
+2019-08-25 21:16:45 [http-nio-8080-exec-5:13229]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@758bb3be, com.pojo.ExcellentStudent@24b23ae9, com.pojo.ExcellentStudent@dbe7ac5, com.pojo.ExcellentStudent@7542527d]
+2019-08-25 21:16:45 [http-nio-8080-exec-5:13242]-[INFO] resylt:4
+2019-08-25 21:16:56 [http-nio-8080-exec-8:24187]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 21:16:56 [http-nio-8080-exec-8:24200]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 21:16:56 [http-nio-8080-exec-8:24200]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 21:16:56 [http-nio-8080-exec-8:24200]-[INFO] 登录信息正确
+2019-08-25 21:16:56 [http-nio-8080-exec-8:24208]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMzEwMTYsInVzZXJuYW1lIjoiMjIyIn0.CR58M3cwrBvV4mVxkPNYlL1rvab2kosZGT1HHcZpiZoToken的长度：160
+2019-08-25 21:16:56 [http-nio-8080-exec-8:24209]-[INFO] cookie:javax.servlet.http.Cookie@d877196
+2019-08-25 21:17:00 [http-nio-8080-exec-10:28294]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 21:17:00 [http-nio-8080-exec-10:28304]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 21:17:00 [http-nio-8080-exec-10:28304]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 21:17:00 [http-nio-8080-exec-10:28305]-[INFO] 登录信息正确
+2019-08-25 21:17:00 [http-nio-8080-exec-10:28319]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMzEwMjAsInVzZXJuYW1lIjoiMjIyIn0.HtZNa5qEE8EQudoIAUMJSlgRClaXiJ6nM07GHJzhv5cToken的长度：160
+2019-08-25 21:17:00 [http-nio-8080-exec-10:28320]-[INFO] cookie:javax.servlet.http.Cookie@11d60058
+2019-08-25 21:17:01 [http-nio-8080-exec-1:29090]-[INFO] 查询所有信息
+2019-08-25 21:17:01 [http-nio-8080-exec-1:29103]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@56a4966c, com.pojo.ExcellentStudent@50c1785c, com.pojo.ExcellentStudent@7286424a, com.pojo.ExcellentStudent@5f395d7d]
+2019-08-25 21:17:01 [http-nio-8080-exec-1:29113]-[INFO] resylt:4
+2019-08-25 21:17:03 [http-nio-8080-exec-3:31318]-[INFO] 查询所有信息
+2019-08-25 21:17:03 [http-nio-8080-exec-3:31328]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@4c85c72c, com.pojo.ExcellentStudent@3a2a74c0, com.pojo.ExcellentStudent@77102d3d, com.pojo.ExcellentStudent@35dfd52f]
+2019-08-25 21:17:03 [http-nio-8080-exec-3:31337]-[INFO] resylt:4
+2019-08-25 21:17:04 [http-nio-8080-exec-6:32277]-[INFO] 查询所有信息
+2019-08-25 21:17:04 [http-nio-8080-exec-6:32287]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@1f75d4bd, com.pojo.ExcellentStudent@6fed766c, com.pojo.ExcellentStudent@58de6e6, com.pojo.ExcellentStudent@720fdeb1]
+2019-08-25 21:17:04 [http-nio-8080-exec-6:32296]-[INFO] resylt:4
+2019-08-25 21:17:16 [http-nio-8080-exec-7:44752]-[INFO] 查询所有信息
+2019-08-25 21:17:16 [http-nio-8080-exec-7:44760]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@32d24dd9, com.pojo.ExcellentStudent@3db1d782, com.pojo.ExcellentStudent@5c823baf, com.pojo.ExcellentStudent@20308d46]
+2019-08-25 21:17:16 [http-nio-8080-exec-7:44770]-[INFO] resylt:4
+2019-08-25 21:17:18 [http-nio-8080-exec-10:46725]-[INFO] user:User{id=null, name='222', pwd='222', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 21:17:18 [http-nio-8080-exec-10:46733]-[INFO] user的ID：User{id=4, name='222', pwd='9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da', salt='null', email='null', createTime=null, updateTime=null}
+2019-08-25 21:17:18 [http-nio-8080-exec-10:46734]-[INFO] 名字：222  密码：9d83d72defd98decdd4d2cd11d4fdf0dccd72d4cdc0de1da
+2019-08-25 21:17:18 [http-nio-8080-exec-10:46734]-[INFO] 登录信息正确
+2019-08-25 21:17:18 [http-nio-8080-exec-10:46744]-[INFO] 生成加密后的Token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidG9rZW4iLCJpZCI6IjQiLCJleHAiOjE1NjkzMzEwMzgsInVzZXJuYW1lIjoiMjIyIn0.64NilpKO8gmaxDRLvNhcU81ckVMklQksEtAg_A7J2A0Token的长度：160
+2019-08-25 21:17:18 [http-nio-8080-exec-10:46744]-[INFO] cookie:javax.servlet.http.Cookie@4d9b9978
+2019-08-25 21:17:20 [http-nio-8080-exec-1:48395]-[INFO] 查询所有信息
+2019-08-25 21:17:20 [http-nio-8080-exec-1:48405]-[INFO] 根据薪水查询的优秀学员：[com.pojo.ExcellentStudent@db4988d, com.pojo.ExcellentStudent@75459927, com.pojo.ExcellentStudent@54102ff0, com.pojo.ExcellentStudent@676ff129]
+2019-08-25 21:17:20 [http-nio-8080-exec-1:48414]-[INFO] resylt:4
+2019-08-25 21:18:44 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 21:18:44 [main:28]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 21:18:45 [main:160]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:18:45 [main:370]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:18:45 CST 2019]; root of context hierarchy
+2019-08-25 21:18:45 [main:640]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:18:45 [main:699]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:18:45 [main:702]-[INFO] Creating 8 reactors...
+2019-08-25 21:18:46 [main:1543]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:18:46 [Xmemcached-Reactor-0:1595]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:18:46 [main:1759]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 21:18:46 CST 2019]; root of context hierarchy
+2019-08-25 21:18:46 [main:1760]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:18:46 [main:1857]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:18:46 [main:1857]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:18:46 [main:1858]-[INFO] Creating 8 reactors...
+2019-08-25 21:18:46 [main:1897]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:18:46 [Xmemcached-Reactor-0:1907]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:18:46 [Thread-11:1939]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:18:45 CST 2019]; root of context hierarchy
+2019-08-25 21:18:46 [Thread-9:1978]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:18:46 [Thread-9:1981]-[INFO] Controller has been stopped.
+2019-08-25 21:18:46 [Thread-21:1986]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:18:46 [Thread-21:1994]-[INFO] Controller has been stopped.
+2019-08-25 21:19:07 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 21:19:07 [main:31]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 21:19:07 [main:217]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:19:07 [main:439]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:19:07 CST 2019]; root of context hierarchy
+2019-08-25 21:19:07 [main:734]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:19:07 [main:790]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:19:07 [main:797]-[INFO] Creating 8 reactors...
+2019-08-25 21:19:09 [main:1944]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:19:09 [Xmemcached-Reactor-0:1970]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:19:09 [main:2143]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 21:19:09 CST 2019]; root of context hierarchy
+2019-08-25 21:19:09 [main:2149]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:19:09 [main:2269]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:19:09 [main:2270]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:19:09 [main:2270]-[INFO] Creating 8 reactors...
+2019-08-25 21:19:09 [main:2299]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:19:09 [Xmemcached-Reactor-0:2302]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:19:09 [Thread-11:2324]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:19:07 CST 2019]; root of context hierarchy
+2019-08-25 21:19:09 [Thread-9:2368]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:19:09 [Thread-9:2371]-[INFO] Controller has been stopped.
+2019-08-25 21:19:09 [Thread-21:2376]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:19:09 [Thread-21:2391]-[INFO] Controller has been stopped.
+2019-08-25 21:21:10 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 21:21:10 [main:35]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 21:21:10 [main:151]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:21:10 [main:378]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:21:10 CST 2019]; root of context hierarchy
+2019-08-25 21:21:10 [main:684]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:21:10 [main:740]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:21:10 [main:743]-[INFO] Creating 8 reactors...
+2019-08-25 21:21:11 [main:1682]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:21:11 [Xmemcached-Reactor-0:1709]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:21:12 [main:1974]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 21:21:12 CST 2019]; root of context hierarchy
+2019-08-25 21:21:12 [main:1977]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:21:12 [main:2099]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:21:12 [main:2099]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:21:12 [main:2100]-[INFO] Creating 8 reactors...
+2019-08-25 21:21:12 [main:2115]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:21:12 [Xmemcached-Reactor-0:2118]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:21:12 [Thread-11:2152]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:21:10 CST 2019]; root of context hierarchy
+2019-08-25 21:21:12 [Thread-21:2181]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:21:12 [Thread-9:2181]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:21:12 [Thread-9:2183]-[INFO] Controller has been stopped.
+2019-08-25 21:21:12 [Thread-21:2187]-[INFO] Controller has been stopped.
+2019-08-25 21:21:32 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 21:21:32 [main:39]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 21:21:33 [main:174]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:21:33 [main:410]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:21:33 CST 2019]; root of context hierarchy
+2019-08-25 21:21:33 [main:677]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:21:33 [main:733]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:21:33 [main:736]-[INFO] Creating 8 reactors...
+2019-08-25 21:21:34 [main:1558]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:21:34 [Xmemcached-Reactor-0:1605]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:21:34 [main:1747]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 21:21:34 CST 2019]; root of context hierarchy
+2019-08-25 21:21:34 [main:1748]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:21:34 [main:1870]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:21:34 [main:1871]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:21:34 [main:1871]-[INFO] Creating 8 reactors...
+2019-08-25 21:21:34 [main:1891]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:21:34 [Xmemcached-Reactor-0:1912]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:21:34 [Thread-11:1941]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:21:33 CST 2019]; root of context hierarchy
+2019-08-25 21:21:34 [Thread-9:1974]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:21:34 [Thread-21:1978]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:21:34 [Thread-9:1978]-[INFO] Controller has been stopped.
+2019-08-25 21:21:34 [Thread-21:1986]-[INFO] Controller has been stopped.
+2019-08-25 21:21:53 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 21:21:53 [main:31]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 21:21:53 [main:216]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:21:53 [main:438]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:21:53 CST 2019]; root of context hierarchy
+2019-08-25 21:21:54 [main:853]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:21:54 [main:936]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:21:54 [main:940]-[INFO] Creating 8 reactors...
+2019-08-25 21:21:55 [main:2082]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:21:55 [Xmemcached-Reactor-0:2109]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:21:55 [main:2268]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 21:21:55 CST 2019]; root of context hierarchy
+2019-08-25 21:21:55 [main:2270]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:21:55 [main:2525]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:21:55 [main:2525]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:21:55 [main:2526]-[INFO] Creating 8 reactors...
+2019-08-25 21:21:56 [main:2561]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:21:56 [Xmemcached-Reactor-0:2566]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:21:56 [Thread-11:2598]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:21:53 CST 2019]; root of context hierarchy
+2019-08-25 21:21:56 [Thread-21:2638]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:21:56 [Thread-9:2638]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:21:56 [Thread-21:2644]-[INFO] Controller has been stopped.
+2019-08-25 21:21:56 [Thread-9:2653]-[INFO] Controller has been stopped.
+2019-08-25 21:22:19 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 21:22:19 [main:41]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 21:22:19 [main:172]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:22:19 [main:394]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:22:19 CST 2019]; root of context hierarchy
+2019-08-25 21:22:20 [main:698]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:22:20 [main:754]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:22:20 [main:756]-[INFO] Creating 8 reactors...
+2019-08-25 21:22:21 [main:1634]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:22:21 [Xmemcached-Reactor-0:1651]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:22:21 [main:1771]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 21:22:21 CST 2019]; root of context hierarchy
+2019-08-25 21:22:21 [main:1772]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:22:21 [main:1882]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:22:21 [main:1883]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:22:21 [main:1883]-[INFO] Creating 8 reactors...
+2019-08-25 21:22:21 [main:1898]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:22:21 [Xmemcached-Reactor-0:1905]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:22:21 [Thread-11:1940]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:22:19 CST 2019]; root of context hierarchy
+2019-08-25 21:22:21 [Thread-9:1968]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:22:21 [Thread-21:1968]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:22:21 [Thread-9:1974]-[INFO] Controller has been stopped.
+2019-08-25 21:22:21 [Thread-21:1976]-[INFO] Controller has been stopped.
+2019-08-25 21:22:39 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-25 21:22:39 [main:56]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-25 21:22:39 [main:182]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:22:39 [main:410]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:22:39 CST 2019]; root of context hierarchy
+2019-08-25 21:22:39 [main:714]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:22:39 [main:770]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:22:39 [main:773]-[INFO] Creating 8 reactors...
+2019-08-25 21:22:40 [main:1834]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:22:40 [Xmemcached-Reactor-0:1869]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:22:41 [main:2006]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Sun Aug 25 21:22:41 CST 2019]; root of context hierarchy
+2019-08-25 21:22:41 [main:2008]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-25 21:22:41 [main:2099]-[WARN] XMemcachedClient use Text protocol
+2019-08-25 21:22:41 [main:2100]-[WARN] XMemcachedClient in failure mode.
+2019-08-25 21:22:41 [main:2100]-[INFO] Creating 8 reactors...
+2019-08-25 21:22:41 [main:2113]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-25 21:22:41 [Xmemcached-Reactor-0:2120]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-25 21:22:41 [Thread-11:2142]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Sun Aug 25 21:22:39 CST 2019]; root of context hierarchy
+2019-08-25 21:22:41 [Thread-21:2175]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:22:41 [Thread-9:2175]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-25 21:22:41 [Thread-9:2178]-[INFO] Controller has been stopped.
+2019-08-25 21:22:41 [Thread-21:2181]-[INFO] Controller has been stopped.
+2019-08-26 09:53:09 [main:0]-[INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-08-26 09:53:09 [main:38]-[INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49993335, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20322d26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@192b07fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64bfbc86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bf3bbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55d56113]
+2019-08-26 09:53:09 [main:165]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-26 09:53:09 [main:373]-[INFO] Refreshing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Mon Aug 26 09:53:09 CST 2019]; root of context hierarchy
+2019-08-26 09:53:09 [main:781]-[WARN] XMemcachedClient use Text protocol
+2019-08-26 09:53:10 [main:848]-[WARN] XMemcachedClient in failure mode.
+2019-08-26 09:53:10 [main:852]-[INFO] Creating 8 reactors...
+2019-08-26 09:53:11 [main:1902]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-26 09:53:11 [Xmemcached-Reactor-0:1917]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-26 09:53:11 [main:2051]-[INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7b02881e: startup date [Mon Aug 26 09:53:11 CST 2019]; root of context hierarchy
+2019-08-26 09:53:11 [main:2053]-[INFO] Loading XML bean definitions from class path resource [spring/app-context-xmemcached.xml]
+2019-08-26 09:53:11 [main:2166]-[WARN] XMemcachedClient use Text protocol
+2019-08-26 09:53:11 [main:2167]-[WARN] XMemcachedClient in failure mode.
+2019-08-26 09:53:11 [main:2168]-[INFO] Creating 8 reactors...
+2019-08-26 09:53:11 [main:2179]-[WARN] The Controller started at localhost/127.0.0.1:0 ...
+2019-08-26 09:53:11 [Xmemcached-Reactor-0:2192]-[WARN] Add a session: 127.0.0.1:11211
+2019-08-26 09:53:11 [Thread-11:2243]-[INFO] Closing org.springframework.context.support.GenericApplicationContext@51cdd8a: startup date [Mon Aug 26 09:53:09 CST 2019]; root of context hierarchy
+2019-08-26 09:53:11 [Thread-9:2274]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-26 09:53:11 [Thread-21:2275]-[WARN] Client in failure mode,we don't remove session 127.0.0.1:11211
+2019-08-26 09:53:11 [Thread-9:2278]-[INFO] Controller has been stopped.
+2019-08-26 09:53:11 [Thread-21:2281]-[INFO] Controller has been stopped.
