@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.ProfessionMapper">
+  <resultMap id="BaseResultMap" type="com.pojo.Profession">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="image" jdbcType="VARCHAR" property="image" />
+    <result column="name" jdbcType="BIGINT" property="name" />
+    <result column="profession_direction" jdbcType="VARCHAR" property="professionDirection" />
+    <result column="profession_description" jdbcType="VARCHAR" property="professionDescription" />
+    <result column="threshold" jdbcType="VARCHAR" property="threshold" />
+    <result column="difficulty" jdbcType="VARCHAR" property="difficulty" />
+    <result column="growth_cycle" jdbcType="VARCHAR" property="growthCycle" />
+    <result column="requirements" jdbcType="VARCHAR" property="requirements" />
+    <result column="period_one" jdbcType="VARCHAR" property="periodOne" />
+    <result column="period_two" jdbcType="VARCHAR" property="periodTwo" />
+    <result column="period_three" jdbcType="VARCHAR" property="periodThree" />
+    <result column="salary_one" jdbcType="VARCHAR" property="salaryOne" />
+    <result column="salary_two" jdbcType="VARCHAR" property="salaryTwo" />
+    <result column="salary_three" jdbcType="VARCHAR" property="salaryThree" />
+    <result column="number" jdbcType="VARCHAR" property="number" />
+    <result column="tips" jdbcType="VARCHAR" property="tips" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, image, name, profession_direction, profession_description, threshold, difficulty, 
+    growth_cycle, requirements, period_one, period_two, period_three, salary_one, salary_two, 
+    salary_three, number, tips
+  </sql>
+
+
+
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from profession
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+
+
+
+  <select id="select"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from profession
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from profession
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+
+
+  <insert id="insert" parameterType="com.pojo.Profession">
+    insert into profession (id, image, name, 
+      profession_direction, profession_description, 
+      threshold, difficulty, growth_cycle, 
+      requirements, period_one, period_two, 
+      period_three, salary_one, salary_two, 
+      salary_three, number, tips
+      )
+    values (#{id,jdbcType=INTEGER}, #{image,jdbcType=VARCHAR}, #{name,jdbcType=BIGINT}, 
+      #{professionDirection,jdbcType=VARCHAR}, #{professionDescription,jdbcType=VARCHAR}, 
+      #{threshold,jdbcType=VARCHAR}, #{difficulty,jdbcType=VARCHAR}, #{growthCycle,jdbcType=VARCHAR}, 
+      #{requirements,jdbcType=VARCHAR}, #{periodOne,jdbcType=VARCHAR}, #{periodTwo,jdbcType=VARCHAR}, 
+      #{periodThree,jdbcType=VARCHAR}, #{salaryOne,jdbcType=VARCHAR}, #{salaryTwo,jdbcType=VARCHAR}, 
+      #{salaryThree,jdbcType=VARCHAR}, #{number,jdbcType=VARCHAR}, #{tips,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.pojo.Profession">
+    insert into profession
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="image != null">
+        image,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="professionDirection != null">
+        profession_direction,
+      </if>
+      <if test="professionDescription != null">
+        profession_description,
+      </if>
+      <if test="threshold != null">
+        threshold,
+      </if>
+      <if test="difficulty != null">
+        difficulty,
+      </if>
+      <if test="growthCycle != null">
+        growth_cycle,
+      </if>
+      <if test="requirements != null">
+        requirements,
+      </if>
+      <if test="periodOne != null">
+        period_one,
+      </if>
+      <if test="periodTwo != null">
+        period_two,
+      </if>
+      <if test="periodThree != null">
+        period_three,
+      </if>
+      <if test="salaryOne != null">
+        salary_one,
+      </if>
+      <if test="salaryTwo != null">
+        salary_two,
+      </if>
+      <if test="salaryThree != null">
+        salary_three,
+      </if>
+      <if test="number != null">
+        number,
+      </if>
+      <if test="tips != null">
+        tips,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="image != null">
+        #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=BIGINT},
+      </if>
+      <if test="professionDirection != null">
+        #{professionDirection,jdbcType=VARCHAR},
+      </if>
+      <if test="professionDescription != null">
+        #{professionDescription,jdbcType=VARCHAR},
+      </if>
+      <if test="threshold != null">
+        #{threshold,jdbcType=VARCHAR},
+      </if>
+      <if test="difficulty != null">
+        #{difficulty,jdbcType=VARCHAR},
+      </if>
+      <if test="growthCycle != null">
+        #{growthCycle,jdbcType=VARCHAR},
+      </if>
+      <if test="requirements != null">
+        #{requirements,jdbcType=VARCHAR},
+      </if>
+      <if test="periodOne != null">
+        #{periodOne,jdbcType=VARCHAR},
+      </if>
+      <if test="periodTwo != null">
+        #{periodTwo,jdbcType=VARCHAR},
+      </if>
+      <if test="periodThree != null">
+        #{periodThree,jdbcType=VARCHAR},
+      </if>
+      <if test="salaryOne != null">
+        #{salaryOne,jdbcType=VARCHAR},
+      </if>
+      <if test="salaryTwo != null">
+        #{salaryTwo,jdbcType=VARCHAR},
+      </if>
+      <if test="salaryThree != null">
+        #{salaryThree,jdbcType=VARCHAR},
+      </if>
+      <if test="number != null">
+        #{number,jdbcType=VARCHAR},
+      </if>
+      <if test="tips != null">
+        #{tips,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.pojo.Profession">
+    update profession
+    <set>
+      <if test="image != null">
+        image = #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        name = #{name,jdbcType=BIGINT},
+      </if>
+      <if test="professionDirection != null">
+        profession_direction = #{professionDirection,jdbcType=VARCHAR},
+      </if>
+      <if test="professionDescription != null">
+        profession_description = #{professionDescription,jdbcType=VARCHAR},
+      </if>
+      <if test="threshold != null">
+        threshold = #{threshold,jdbcType=VARCHAR},
+      </if>
+      <if test="difficulty != null">
+        difficulty = #{difficulty,jdbcType=VARCHAR},
+      </if>
+      <if test="growthCycle != null">
+        growth_cycle = #{growthCycle,jdbcType=VARCHAR},
+      </if>
+      <if test="requirements != null">
+        requirements = #{requirements,jdbcType=VARCHAR},
+      </if>
+      <if test="periodOne != null">
+        period_one = #{periodOne,jdbcType=VARCHAR},
+      </if>
+      <if test="periodTwo != null">
+        period_two = #{periodTwo,jdbcType=VARCHAR},
+      </if>
+      <if test="periodThree != null">
+        period_three = #{periodThree,jdbcType=VARCHAR},
+      </if>
+      <if test="salaryOne != null">
+        salary_one = #{salaryOne,jdbcType=VARCHAR},
+      </if>
+      <if test="salaryTwo != null">
+        salary_two = #{salaryTwo,jdbcType=VARCHAR},
+      </if>
+      <if test="salaryThree != null">
+        salary_three = #{salaryThree,jdbcType=VARCHAR},
+      </if>
+      <if test="number != null">
+        number = #{number,jdbcType=VARCHAR},
+      </if>
+      <if test="tips != null">
+        tips = #{tips,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.pojo.Profession">
+    update profession
+    set image = #{image,jdbcType=VARCHAR},
+      name = #{name,jdbcType=BIGINT},
+      profession_direction = #{professionDirection,jdbcType=VARCHAR},
+      profession_description = #{professionDescription,jdbcType=VARCHAR},
+      threshold = #{threshold,jdbcType=VARCHAR},
+      difficulty = #{difficulty,jdbcType=VARCHAR},
+      growth_cycle = #{growthCycle,jdbcType=VARCHAR},
+      requirements = #{requirements,jdbcType=VARCHAR},
+      period_one = #{periodOne,jdbcType=VARCHAR},
+      period_two = #{periodTwo,jdbcType=VARCHAR},
+      period_three = #{periodThree,jdbcType=VARCHAR},
+      salary_one = #{salaryOne,jdbcType=VARCHAR},
+      salary_two = #{salaryTwo,jdbcType=VARCHAR},
+      salary_three = #{salaryThree,jdbcType=VARCHAR},
+      number = #{number,jdbcType=VARCHAR},
+      tips = #{tips,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
