@@ -26,6 +26,18 @@
         select * from user where name = #{name}
 </select>
 
+    <select id="selectByMail" parameterType="string" resultMap="BaseResultMap">
+        select * from user where email = #{email}
+</select>
+
+    <select id="selectByPhone" parameterType="string" resultMap="BaseResultMap">
+        select * from user where phone_number = #{phoneNumber}
+</select>
+
+<select id="selectByPwd" parameterType="string" resultMap="BaseResultMap">
+    select * from user where pwd=#{pwd}
+</select>
+
 
 
   <select id="getName" parameterType="string" resultType="com.pojo.User">

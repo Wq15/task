@@ -17,12 +17,12 @@
         </tr>
         <tr>
             <td>用户名:</td>
-            <td><input type="text" name="name">
+            <td><input type="text" name="account">
             </td>
         </tr>
         <tr>
             <td>密码:</td>
-            <td><input type="password" name="pwd"/>
+            <td><input type="text" name="pwd"/>
             </td>
         </tr>
         <tr>

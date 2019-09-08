@@ -573,29 +573,13 @@ public class UserHandler {
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public ModelAndView select() {
 
-
         logger.info("查询所有信息");
-
         ModelAndView mav = new ModelAndView();
-
 
         List<ExcellentStudent> users;
 
-
-//        if (redisUtil.get("users") == null) {
-
-
             users = es.select();
 
-//            redisUtil.set("users", users);
-//
-//            System.out.println("redis里面的user值：  " + redisUtil.get("users"));
-//        } else {
-//
-//            users = (List<ExcellentStudent>) redisUtil.get("users");
-//
-//            System.out.println("如果redis里面有就是： " + redisUtil.get("users"));
-//        }
         logger.info("根据薪水查询的优秀学员：" + users);
         mav.addObject("user", users);
 
@@ -614,10 +598,11 @@ public class UserHandler {
      */
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public ModelAndView Login(User user, HttpServletResponse response) throws Exception {
+    public ModelAndView Login(String account, User user, HttpServletResponse response,String pwd) throws Exception {
         logger.info("user:" + user);
+        logger.info("输入的account  值 "+account);
         //调用login方法来验证是否是注册用户
-        boolean loginType = userService.login(user.getName(), MD5Utils.generate(user.getPwd()));
+        boolean loginType = userService.login(account, MD5Utils.generate(user.getPwd()));
 
         System.out.println(loginType);
         ModelAndView mv = new ModelAndView();
@@ -627,9 +612,15 @@ public class UserHandler {
             return mv;
         }
 
-
+        logger.info("这里631");
         //生成Token
-        String token = JwtTokenUtil.createToken(userService.selectByName(user.getName()).getId().toString(), user.getName());
+
+
+        User user1=userService.selectByPwd(MD5Utils.generate(user.getPwd()));
+
+        System.out.println(user1);
+
+        String token = JwtTokenUtil.createToken(userService.selectByName(user1.getName()).getId().toString(), user1.getName());
 
         logger.info("生成加密后的Token：" + token + "Token的长度：" + token.length());
 
@@ -644,13 +635,15 @@ public class UserHandler {
 
         logger.info("cookie:" + cookie);
         response.addCookie(cookie);
-        String st = user.getName();
+        String st = user1.getName();
         mv.addObject("status", st);
 
         mv.setViewName("dlcg");
 
         return mv;
     }
+
+
 
     //退出登录时删除cookie
     @RequestMapping("/signout")
