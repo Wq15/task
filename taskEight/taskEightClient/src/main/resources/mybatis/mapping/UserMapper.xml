@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UserMapper">
+    <resultMap id="BaseResultMap" type="com.pojo.User">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="pwd" jdbcType="VARCHAR" property="pwd"/>
+        <result column="image_url" jdbcType="VARCHAR" property="imageUrl"/>
+        <result column="phone_number" jdbcType="VARCHAR" property="phoneNumber"/>
+        <result column="identifying_code" jdbcType="VARCHAR" property="identifyingCode"/>
+        <result column="email" jdbcType="VARCHAR" property="email"/>
+        <result column="create_time" jdbcType="BIGINT" property="createTime"/>
+        <result column="update_time" jdbcType="BIGINT" property="updateTime"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, name, pwd, salt, phone_number, identifying_code, email, create_time, update_time
+    </sql>
+    <select id="selectById" parameterType="java.lang.Integer" resultType="com.pojo.User">
+        select
+        *
+        from user
+        where id = #{id}
+    </select>
+
+    <select id="selectByName" parameterType="string" resultType="com.pojo.User">
+        select * from user where name = #{name}
+    </select>
+
+    <select id="selectByMail" parameterType="string" resultMap="BaseResultMap">
+        select * from user where email = #{email}
+    </select>
+
+    <select id="selectByPhone" parameterType="string" resultMap="BaseResultMap">
+        select * from user where phone_number = #{phoneNumber}
+    </select>
+
+    <select id="selectByPwd" parameterType="string" resultMap="BaseResultMap">
+        select * from user where pwd=#{pwd}
+    </select>
+
+
+    <select id="getName" parameterType="string" resultType="com.pojo.User">
+        select * from user where name = #{name}
+    </select>
+
+
+    <insert id="insertUser" parameterType="com.pojo.User">
+        insert into user (name,pwd,phone_number) values(#{name},#{pwd},#{phoneNumber})
+    </insert>
+
+
+    <insert id="insertEmail" parameterType="com.pojo.User">
+        insert into user (name,pwd,email) values(#{name},#{pwd},#{email})
+    </insert>
+
+
+    <insert id="insertUrl" parameterType="com.pojo.User">
+        insert into user (image_url) values (#{imageUrl})
+    </insert>
+
+
+</mapper>

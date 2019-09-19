@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.ExcellentStudentMapper">
+    <resultMap id="BaseResultMap" type="com.pojo.ExcellentStudent">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="image" jdbcType="VARCHAR" property="image"/>
+        <result column="titles" jdbcType="VARCHAR" property="titles"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="profession_description" jdbcType="VARCHAR" property="professionDescription"/>
+        <result column="salary" jdbcType="VARCHAR" property="salary"/>
+        <result column="create_at" jdbcType="VARCHAR" property="createAt"/>
+        <result column="update_at" jdbcType="VARCHAR" property="updateAt"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, image, titles, name, profession_description, salary, create_at, update_at
+    </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from excellent_student
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+
+    <select id="select" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from excellent_student
+        ORDER BY salary desc LIMIT 4
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from excellent_student
+        where id = #{id,jdbcType=INTEGER}
+    </delete>
+    <insert id="insert" parameterType="com.pojo.ExcellentStudent">
+        insert into excellent_student (id, image, titles,
+        name, profession_description, salary,
+        create_at, update_at)
+        values (#{id,jdbcType=INTEGER}, #{image,jdbcType=VARCHAR}, #{titles,jdbcType=VARCHAR},
+        #{name,jdbcType=VARCHAR}, #{professionDescription,jdbcType=VARCHAR}, #{salary,jdbcType=VARCHAR},
+        #{createAt,jdbcType=VARCHAR}, #{updateAt,jdbcType=VARCHAR})
+    </insert>
+    <insert id="insertSelective" parameterType="com.pojo.ExcellentStudent">
+        insert into excellent_student
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="image != null">
+                image,
+            </if>
+            <if test="titles != null">
+                titles,
+            </if>
+            <if test="name != null">
+                name,
+            </if>
+            <if test="professionDescription != null">
+                profession_description,
+            </if>
+            <if test="salary != null">
+                salary,
+            </if>
+            <if test="createAt != null">
+                create_at,
+            </if>
+            <if test="updateAt != null">
+                update_at,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="image != null">
+                #{image,jdbcType=VARCHAR},
+            </if>
+            <if test="titles != null">
+                #{titles,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="professionDescription != null">
+                #{professionDescription,jdbcType=VARCHAR},
+            </if>
+            <if test="salary != null">
+                #{salary,jdbcType=VARCHAR},
+            </if>
+            <if test="createAt != null">
+                #{createAt,jdbcType=VARCHAR},
+            </if>
+            <if test="updateAt != null">
+                #{updateAt,jdbcType=VARCHAR},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.pojo.ExcellentStudent">
+        update excellent_student
+        <set>
+            <if test="image != null">
+                image = #{image,jdbcType=VARCHAR},
+            </if>
+            <if test="titles != null">
+                titles = #{titles,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                name = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="professionDescription != null">
+                profession_description = #{professionDescription,jdbcType=VARCHAR},
+            </if>
+            <if test="salary != null">
+                salary = #{salary,jdbcType=VARCHAR},
+            </if>
+            <if test="createAt != null">
+                create_at = #{createAt,jdbcType=VARCHAR},
+            </if>
+            <if test="updateAt != null">
+                update_at = #{updateAt,jdbcType=VARCHAR},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.pojo.ExcellentStudent">
+        update excellent_student
+        set image = #{image,jdbcType=VARCHAR},
+        titles = #{titles,jdbcType=VARCHAR},
+        name = #{name,jdbcType=VARCHAR},
+        profession_description = #{professionDescription,jdbcType=VARCHAR},
+        salary = #{salary,jdbcType=VARCHAR},
+        create_at = #{createAt,jdbcType=VARCHAR},
+        update_at = #{updateAt,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>

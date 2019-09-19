@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <bean id="helloRMIServiceImpl" class="com.service.impl.ExcellentsStudentServiceImpl"></bean>
+    <bean id="myRMIServer" class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="helloRMI"></property>
+        <property name="service" ref="helloRMIServiceImpl"></property>
+        <property name="serviceInterface" value="com.service.ExcellentsStudentService"></property>
+        <property name="registryPort" value="6666"></property>
+    </bean>
+
+    <bean id="proRMIServiceImpl" class="com.service.impl.ProfessionServiceImpl"></bean>
+    <bean id="proRMIServer" class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="proRMI"></property>
+        <property name="service" ref="proRMIServiceImpl"></property>
+        <property name="serviceInterface" value="com.service.ProfessionService"></property>
+        <property name="registryPort" value="6666"></property>
+    </bean>
+
+    <bean id="userRMIServiceImpl" class="com.service.impl.UserServiceImpl"></bean>
+    <bean id="userRMIServer" class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="userRMI"></property>
+        <property name="service" ref="userRMIServiceImpl"></property>
+        <property name="serviceInterface" value="com.service.UserService"></property>
+        <property name="registryPort" value="6666"></property>
+    </bean>
+
+
+    <!--    部署两台服务器-->
+    <bean id="helloRMIServiceImpl2" class="com.service.impl.ExcellentsStudentServiceImpl"></bean>
+    <bean id="myRMIServer2" class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="helloRMI"></property>
+        <property name="service" ref="helloRMIServiceImpl2"></property>
+        <property name="serviceInterface" value="com.service.ExcellentsStudentService"></property>
+        <property name="registryPort" value="7777"></property>
+    </bean>
+
+    <bean id="proRMIServiceImpl2" class="com.service.impl.ProfessionServiceImpl"></bean>
+    <bean id="proRMIServer2" class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="proRMI"></property>
+        <property name="service" ref="proRMIServiceImpl2"></property>
+        <property name="serviceInterface" value="com.service.ProfessionService"></property>
+        <property name="registryPort" value="7777"></property>
+    </bean>
+
+    <bean id="userRMIServiceImpl2" class="com.service.impl.UserServiceImpl"></bean>
+    <bean id="userRMIServer2" class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="userRMI"></property>
+        <property name="service" ref="userRMIServiceImpl2"></property>
+        <property name="serviceInterface" value="com.service.UserService"></property>
+        <property name="registryPort" value="7777"></property>
+    </bean>
+
+
+</beans>
